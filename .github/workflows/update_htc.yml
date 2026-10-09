@@ -23,6 +23,22 @@ jobs:
       - run: pip install -r requirements.txt
       - run: python scraper_htc.py
 
+      #Create a diff summary
+      - name: Generate diff summary
+        id: diff
+        run: python diff_summary_htc.py
+
+      #Send diff email if tehre are changes
+      - name: Send summary email natively
+        if: steps.diff.outputs.has_changes == 'true'
+        env:
+          MAIL_SERVER: ${{ secrets.MAIL_SERVER }}
+          MAIL_PORT: ${{ secrets.MAIL_PORT }}
+          MAIL_USERNAME: ${{ secrets.MAIL_USERNAME }}
+          MAIL_PASSWORD: ${{ secrets.MAIL_PASSWORD }}
+          MAIL_RECIPIENT: "your.destination.email@example.com"
+        run: python send_email.py
+        
       #Commit the calendar to the repo
       - name: Commit and push updated feed
         run: |
