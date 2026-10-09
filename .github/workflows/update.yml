@@ -2,12 +2,13 @@ name: Update Harpenden calendar
 
 on:
   schedule:
-    # Runs once daily at 18:00 UTC (6:00 PM)
     - cron: "0 18 * * *"
   workflow_dispatch:
 
 permissions:
   contents: write
+  pages: write
+  id-token: write
 
 jobs:
   update:
@@ -19,16 +20,22 @@ jobs:
         with:
           python-version: "3.x"
 
-      - name: Install dependencies
-        run: pip install -r requirements.txt
+      - run: pip install -r requirements.txt
+      - run: python scraper.py
 
-      - name: Run scraper
-        run: python scraper.py
-
-      - name: Commit and push updated feed
+      # Create an isolated publish folder with only events.ics
+      - name: Stage output file
         run: |
-          git config user.name "harpenden-calendar-bot"
-          git config user.email "harpenden-calendar-bot@users.noreply.github.com"
-          git add events.ics
-          git diff --cached --quiet || git commit -m "Update calendar"
-          git push
+          mkdir -p public
+          cp events.ics public/
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v4
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: 'public'
+
+      - name: Deploy to GitHub Pages
+        uses: actions/deploy-pages@v4
