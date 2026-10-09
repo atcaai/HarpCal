@@ -10,7 +10,7 @@ from icalendar import Calendar, Event
 
 BASE = "https://www.harpenden.gov.uk/events-and-markets/calendar" 
 #"https://www.harpenden.gov.uk/events-and-markets/calendar"
-OUTPUT = "events.ics"
+OUTPUT = "events_htc.ics"
 MONTHS_AHEAD = 14
 EXCLUDE = ("citizens advice", "planning committee")
 
