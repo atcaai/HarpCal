@@ -2,7 +2,8 @@ name: Update Harpenden calendar
 
 on:
   schedule:
-    - cron: "17 */6 * * *"
+    # Runs once daily at 18:00 UTC (6:00 PM)
+    - cron: "0 18 * * *"
   workflow_dispatch:
 
 permissions:
@@ -18,10 +19,13 @@ jobs:
         with:
           python-version: "3.x"
 
-      - run: pip install -r requirements.txt
-      - run: python scraper.py
+      - name: Install dependencies
+        run: pip install -r requirements.txt
 
-      - name: Commit updated feed
+      - name: Run scraper
+        run: python scraper.py
+
+      - name: Commit and push updated feed
         run: |
           git config user.name "harpenden-calendar-bot"
           git config user.email "harpenden-calendar-bot@users.noreply.github.com"
