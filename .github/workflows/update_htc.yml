@@ -21,13 +21,13 @@ jobs:
           python-version: "3.x"
 
       - run: pip install -r requirements.txt
-      - run: python scraper.py
+      - run: python scraper_htc.py
 
       # Create an isolated publish folder with only events.ics
       - name: Stage output file
         run: |
           mkdir -p public
-          cp events.ics public/
+          cp events_htc.ics public/
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
