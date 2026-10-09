@@ -1,0 +1,923 @@
+
+<!DOCTYPE html>
+
+<html lang="en">
+	<head>
+		<base href="https://www.harpenden.gov.uk/">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta charset="UTF-8">
+		
+		<title>Calendar</title><!-- Global site tag (gtag.js) - Google Analytics -->
+                    <script async src="https://www.googletagmanager.com/gtag/js?id=G-3RCL5HVE7T"></script>
+                    <script>
+                      window.dataLayer = window.dataLayer || [];
+                      function gtag(){dataLayer.push(arguments);}
+                      gtag("js", new Date());
+
+                      gtag("config", "G-3RCL5HVE7T");
+                    </script>		
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Jost:wght@300;400;700&family=Roboto:wght@100;300;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://use.typekit.net/hjo2xgb.css">
+        
+		<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+		<link rel="stylesheet" href="css/style.min.css">
+		<link rel="stylesheet" href="css/jquery.fancybox.min.css">
+		
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+		<script src="js/bootstrap.bundle.min.js"></script>
+		<script src="js/docRoot.min.js"></script>
+		<script src="js/tinymce/tinymce.min.js"></script>
+		<script src="js/jquery.fancybox.min.js"></script>
+	</head>
+	
+	<body>
+		<div class="wrapper content25_1">
+			<header id="pageHeader" class="bg-white text-dark">
+				<div class="headerInner container-xl">
+					<div class="row py-3">                        
+                        <div class="col d-flex flex-column order-2 order-md-1">
+                            <div class="contact d-flex align-items-start flex-column mt-0 mb-auto">    
+                                <div class="searchBox mb-2">
+                                    <span class="fa fa-search me-3"></span>
+                                    <form id="siteSearch">
+                                        <div class="input-group">
+                                            <input type="text" class="form-control" name="sitesearch" value=""placeholder="Search...">
+                                            <input type="submit" class="btn btn-primary text-white" value="Go">
+                                        </div>
+                                    </form>
+                                </div>
+
+                                                                    <div class="email mb-2">
+                                        <span class="fab fa-telegram-plane me-3"></span>
+                                        <a href="mailto: harpenden.town.council@harpenden.gov.uk" class="link-dark">harpenden.town.council<wbr>@harpenden.gov.uk</a>
+                                    </div>
+                                
+                                <div class="contactLink">
+                                    <span class="fa fa-envelope me-3"></span>
+                                    <a href="contact" class="link-dark">Contact &amp; Forms</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-auto order-1 order-md-2 mb-3 mb-md-0 d-flex d-md-block align-items-center justify-content-center">
+                            <a href="/" class="siteTitle">
+                                                                    <img src="source/logos/harpenden-logo.png" class="siteLogo img-fluid" alt="Harpenden Town CouncilLogo">    
+                                                            </a>
+						</div>
+					</div>
+
+                    <nav class="navbar navbar-expand-md navbar-light py-0" id="navbar0">
+                        <a class="navbar-brand" href="#">Navigation</a>
+                        <button class="navbar-toggler ms-auto me-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse0" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+
+                        <div class="collapse navbar-collapse" id="navbarCollapse0"><ul class="navbar-nav ms-auto"><li class="nav-item dropdown d-flex flex-wrap">
+                            <a class="nav-link d-inline-block flex-grow-1 px-3 px-xl-0" href="community" >Community</a><a class="nav-link d-inline-block dropdown-toggle float-end" href="#" id="dropdown2" role="button" aria-expanded="false"></a><ul class="navbar-nav subMenu w-100"><li class="nav-item dropdown d-flex flex-wrap">
+                            <a class="nav-link d-inline-block flex-grow-1 px-3 px-xl-0" href="community/volunteering-opportunities" >Volunteering Opportunities</a><a class="nav-link d-inline-block dropdown-toggle float-end" href="#" id="dropdown29" role="button" aria-expanded="false"></a></li><li class="nav-item">
+                            <a class="nav-link flex-grow-1 px-3 px-xl-0" href="dementia-friendly-town" >Dementia Friendly Harpenden</a></li><li class="nav-item">
+                            <a class="nav-link flex-grow-1 px-3 px-xl-0" href="banking-hub" >Banking Hub</a></li><li class="nav-item">
+                            <a class="nav-link flex-grow-1 px-3 px-xl-0" href="community/winter-support" >Winter Support Plan</a></li><li class="nav-item dropdown d-flex flex-wrap">
+                            <a class="nav-link d-inline-block flex-grow-1 px-3 px-xl-0" href="community/arts-culture" >Arts and Culture</a><a class="nav-link d-inline-block dropdown-toggle float-end" href="#" id="dropdown97" role="button" aria-expanded="false"></a><ul class="navbar-nav subMenu w-100"><li class="nav-item">
+                            <a class="nav-link flex-grow-1 px-3 px-xl-0" href="community/artsandculture-forum" >Arts and Culture Forum</a></li></ul></li><li class="nav-item">
+                            <a class="nav-link flex-grow-1 px-3 px-xl-0" href="community/community-connect" >Community Support</a></li><li class="nav-item">
+                            <a class="nav-link flex-grow-1 px-3 px-xl-0" href="community/community-grants" >Community Grants</a></li><li class="nav-item dropdown d-flex flex-wrap">
+                            <a class="nav-link d-inline-block flex-grow-1 px-3 px-xl-0" href="business-support" >Business Support</a><a class="nav-link d-inline-block dropdown-toggle float-end" href="#" id="dropdown101" role="button" aria-expanded="false"></a><ul class="navbar-nav subMenu w-100"><li class="nav-item">
+                            <a class="nav-link flex-grow-1 px-3 px-xl-0" href="mentoring" >Business Mentoring</a></li></ul></li><li class="nav-item">
+                            <a class="nav-link flex-grow-1 px-3 px-xl-0" href="sports-forum" >Sports Forum</a></li></ul></li><li class="nav-spacer"></li><li class="nav-item dropdown d-flex flex-wrap">
+                            <a class="nav-link d-inline-block flex-grow-1 px-3 px-xl-0" href="green-spaces" >Environment</a><a class="nav-link d-inline-block dropdown-toggle float-end" href="#" id="dropdown3" role="button" aria-expanded="false"></a><ul class="navbar-nav subMenu w-100"><li class="nav-item">
+                            <a class="nav-link flex-grow-1 px-3 px-xl-0" href="green-spaces/batford-springs-nature-reserve" >Batford Springs Nature Reserve</a></li><li class="nav-item">
+                            <a class="nav-link flex-grow-1 px-3 px-xl-0" href="green-spaces/harpenden-common" >Harpenden Common</a></li><li class="nav-item">
+                            <a class="nav-link flex-grow-1 px-3 px-xl-0" href="green-spaces/lydekker-park" >Lydekker Park</a></li><li class="nav-item">
+                            <a class="nav-link flex-grow-1 px-3 px-xl-0" href="green-spaces/rothamsted-park" >Rothamsted Park</a></li><li class="nav-item dropdown d-flex flex-wrap">
+                            <a class="nav-link d-inline-block flex-grow-1 px-3 px-xl-0" href="green-spaces/other" >Other Green Spaces</a><a class="nav-link d-inline-block dropdown-toggle float-end" href="#" id="dropdown80" role="button" aria-expanded="false"></a><ul class="navbar-nav subMenu w-100"><li class="nav-item">
+                            <a class="nav-link flex-grow-1 px-3 px-xl-0" href="green-spaces/fovant-close-community-orchard" >Fovant Close Community Orchard</a></li><li class="nav-item">
+                            <a class="nav-link flex-grow-1 px-3 px-xl-0" href="green-spaces/oakley-road" >Oakley Road Play Area</a></li><li class="nav-item">
+                            <a class="nav-link flex-grow-1 px-3 px-xl-0" href="green-spaces/parva-close" >Parva Close Recreation Ground</a></li><li class="nav-item">
+                            <a class="nav-link flex-grow-1 px-3 px-xl-0" href="green-spaces/porters-hill-park" >Porters Hill Park</a></li><li class="nav-item">
+                            <a class="nav-link flex-grow-1 px-3 px-xl-0" href="green-spaces/roundwood" >Roundwood Green Space</a></li><li class="nav-item">
+                            <a class="nav-link flex-grow-1 px-3 px-xl-0" href="green-spaces/westfield-recreation-ground" >Westfield Recreation Ground</a></li><li class="nav-item">
+                            <a class="nav-link flex-grow-1 px-3 px-xl-0" href="green-spaces/woodend" >Woodend Play Area</a></li></ul></li><li class="nav-item">
+                            <a class="nav-link flex-grow-1 px-3 px-xl-0" href="green-spaces/allotments" >Allotments</a></li><li class="nav-item dropdown d-flex flex-wrap">
+                            <a class="nav-link d-inline-block flex-grow-1 px-3 px-xl-0" href="green-spaces/tree-management" >Tree Management</a><a class="nav-link d-inline-block dropdown-toggle float-end" href="#" id="dropdown33" role="button" aria-expanded="false"></a><ul class="navbar-nav subMenu w-100"><li class="nav-item">
+                            <a class="nav-link flex-grow-1 px-3 px-xl-0" href="news-and-initiatives/focus-on-trees" >Trees: Latest News</a></li></ul></li><li class="nav-item">
+                            <a class="nav-link flex-grow-1 px-3 px-xl-0" href="green-spaces/floraldisplays" >Floral Displays</a></li><li class="nav-item">
+                            <a class="nav-link flex-grow-1 px-3 px-xl-0" href="loop" >The Harpenden Green Loop</a></li></ul></li><li class="nav-spacer"></li><li class="nav-item dropdown d-flex flex-wrap">
+                            <a class="nav-link d-inline-block flex-grow-1 px-3 px-xl-0" href="news-and-initiatives" >News & Current Initiatives</a><a class="nav-link d-inline-block dropdown-toggle float-end" href="#" id="dropdown5" role="button" aria-expanded="false"></a><ul class="navbar-nav subMenu w-100"><li class="nav-item">
+                            <a class="nav-link flex-grow-1 px-3 px-xl-0" href="news-and-initiatives/press-releases" >Press Releases</a></li><li class="nav-item">
+                            <a class="nav-link flex-grow-1 px-3 px-xl-0" href="news-and-initiatives/forum" >Forum Newsletter</a></li><li class="nav-item">
+                            <a class="nav-link flex-grow-1 px-3 px-xl-0" href="community/batford" >Batford Neighbourhood Survey</a></li></ul></li><li class="nav-spacer"></li><li class="nav-item dropdown d-flex flex-wrap">
+                            <a class="nav-link d-inline-block flex-grow-1 px-3 px-xl-0" href="events-and-markets" >Events & Markets</a><a class="nav-link d-inline-block dropdown-toggle float-end" href="#" id="dropdown6" role="button" aria-expanded="false"></a><ul class="navbar-nav subMenu w-100"><li class="nav-item">
+                            <a class="nav-link flex-grow-1 px-3 px-xl-0" href="events-and-markets/events" >Harpenden Town Council Events</a></li><li class="nav-item">
+                            <a class="nav-link flex-grow-1 px-3 px-xl-0" href="events-and-markets/calendar" >Calendar</a></li><li class="nav-item">
+                            <a class="nav-link flex-grow-1 px-3 px-xl-0" href="events-and-markets/farmers-market" >Farmers Market</a></li><li class="nav-item">
+                            <a class="nav-link flex-grow-1 px-3 px-xl-0" href="events-and-markets/sustainability-market" >Sustainability Market</a></li><li class="nav-item">
+                            <a class="nav-link flex-grow-1 px-3 px-xl-0" href="events-and-markets/sponsorship-opportunities" >Sponsorship Opportunities</a></li></ul></li><li class="nav-spacer"></li><li class="nav-item dropdown d-flex flex-wrap">
+                            <a class="nav-link d-inline-block flex-grow-1 px-3 px-xl-0" href="facilities" >Facilities</a><a class="nav-link d-inline-block dropdown-toggle float-end" href="#" id="dropdown86" role="button" aria-expanded="false"></a><ul class="navbar-nav subMenu w-100"><li class="nav-item">
+                            <a class="nav-link flex-grow-1 px-3 px-xl-0" href="https://harpenden.gov.uk/sport" >Sports Facilities</a></li><li class="nav-item dropdown d-flex flex-wrap">
+                            <a class="nav-link d-inline-block flex-grow-1 px-3 px-xl-0" href="facilities/park-hall" >Park Hall Community Hall</a><a class="nav-link d-inline-block dropdown-toggle float-end" href="#" id="dropdown26" role="button" aria-expanded="false"></a><ul class="navbar-nav subMenu w-100"><li class="nav-item">
+                            <a class="nav-link flex-grow-1 px-3 px-xl-0" href="facilities/park-hall/halls-for-hire" >Other Halls for Hire</a></li></ul></li><li class="nav-item">
+                            <a class="nav-link flex-grow-1 px-3 px-xl-0" href="facilities/defibrillators" >Defibrillators</a></li><li class="nav-item">
+                            <a class="nav-link flex-grow-1 px-3 px-xl-0" href="facilities/public-conveniences" >Public Conveniences</a></li><li class="nav-item">
+                            <a class="nav-link flex-grow-1 px-3 px-xl-0" href="facilities/concourse-bookings" >Concourse Bookings</a></li></ul></li><li class="nav-spacer"></li><li class="nav-item dropdown d-flex flex-wrap">
+                            <a class="nav-link d-inline-block flex-grow-1 px-3 px-xl-0" href="the-council" >The Council</a><a class="nav-link d-inline-block dropdown-toggle float-end" href="#" id="dropdown1" role="button" aria-expanded="false"></a><ul class="navbar-nav subMenu w-100"><li class="nav-item">
+                            <a class="nav-link flex-grow-1 px-3 px-xl-0" href="#about" >About Harpenden Town Council</a></li><li class="nav-item">
+                            <a class="nav-link flex-grow-1 px-3 px-xl-0" href="the-council/town-mayor" >Town Mayor</a></li><li class="nav-item">
+                            <a class="nav-link flex-grow-1 px-3 px-xl-0" href="the-council/councillors" >Councillors</a></li><li class="nav-item">
+                            <a class="nav-link flex-grow-1 px-3 px-xl-0" href="the-council/council-staff" >Council Staff</a></li><li class="nav-item dropdown d-flex flex-wrap">
+                            <a class="nav-link d-inline-block flex-grow-1 px-3 px-xl-0" href="the-council/council-meetings" >Council Meetings</a><a class="nav-link d-inline-block dropdown-toggle float-end" href="#" id="dropdown18" role="button" aria-expanded="false"></a><ul class="navbar-nav subMenu w-100"><li class="nav-item">
+                            <a class="nav-link flex-grow-1 px-3 px-xl-0" href="the-council/council-meetings/council" >Council</a></li><li class="nav-item">
+                            <a class="nav-link flex-grow-1 px-3 px-xl-0" href="the-council/council-meetings/annual-town-meetings" >Annual Town Meeting</a></li><li class="nav-item">
+                            <a class="nav-link flex-grow-1 px-3 px-xl-0" href="the-council/council-meetings/community-services-committee" >Community Services Committee</a></li><li class="nav-item">
+                            <a class="nav-link flex-grow-1 px-3 px-xl-0" href="the-council/council-meetings/corporate-policy-and-finance-committee" >Corporate Policy & Finance Committee</a></li><li class="nav-item">
+                            <a class="nav-link flex-grow-1 px-3 px-xl-0" href="the-council/council-meetings/human-resources-committee" >Human Resources Committee</a></li><li class="nav-item">
+                            <a class="nav-link flex-grow-1 px-3 px-xl-0" href="the-council/council-meetings/planning-committee" >Planning Committee</a></li></ul></li><li class="nav-item">
+                            <a class="nav-link flex-grow-1 px-3 px-xl-0" href="community/town-twinning" >Town Twinning</a></li><li class="nav-item">
+                            <a class="nav-link flex-grow-1 px-3 px-xl-0" href="the-council/key-financial-and-statutory-documents" >Key Financial & Statutory Documents</a></li><li class="nav-item">
+                            <a class="nav-link flex-grow-1 px-3 px-xl-0" href="the-council/vacancies" >Vacancies</a></li><li class="nav-item">
+                            <a class="nav-link flex-grow-1 px-3 px-xl-0" href="the-council/tenders" >Tenders</a></li></ul></li></ul></div>
+                    </nav>				</div>
+			</header>
+			
+			<div class="main">
+                <div class="container-xl">
+                    <div class="row">
+                        <div class="col"><div id="carousel25" class="fullWidth mt-n3 mb-3 carousel slide" data-bs-ride="carousel" data-bs-interval="5000" data-bs-wrap="true">
+                    <div class="carousel-inner"><div class="carousel-item active" style="background-image: url('source/events%20and%20markets/Christmas/HTC%20XMAS%20CARNIVAL%202022_Steve%20Collins-4642.jpg');background-position: 50% 53%;background-size: 100%;">
+                            <div class="carousel-item-inner container-xl" style="align-items: flex-start;justify-content: center;"><h3 class="carouselTitle display-4" style="color: rgb(255, 255, 255);text-align: left;">EVENTS & MARKETS</h3></div>
+                        </div></div></div><div class="breadcrumbs">You are here: <span class="breadcrumb"><a href="/">Home</a> / </span><span class="breadcrumb"><a href="events-and-markets">Events & Markets</a> / </span><span class="breadcrumb current">Calendar</span></div>
+<div class="uc content">
+    <h1>Calendar - What's On in Harpenden</h1>
+<hr class="red-dots" />
+<div class="calendar">
+                    <h3 class="calendarHeading">October 2026</h3>
+
+                    <div class="table-responsive-lg">
+                        <table class="calendarTable table table-light">
+                            <thead>
+                                <tr><th>Sun<span class="headingSuffix">day</span></th><th>Mon<span class="headingSuffix">day</span></th><th>Tue<span class="headingSuffix">sday</span></th><th>Wed<span class="headingSuffix">nesday</span></th><th>Thu<span class="headingSuffix">rsday</span></th><th>Fri<span class="headingSuffix">day</span></th><th>Sat<span class="headingSuffix">urday</span></th></tr>
+                            </thead>
+
+                            <tbody><tr><td class="calendarPast">
+                        <div class="calendarInner"><a href="#" class="moreEventsLink" data-bs-toggle="modal" data-bs-target="#events20260927"><span class="calendarDay">27</span></a><a href="events-and-markets/events/event-2164?date=2026-09-27" class="eventLink" style="width: 100%">
+                            <div class="calendarEvent" style="background-color: #212529;color: #fff;">10:00: Farmers' Market</div>
+                        </a></div>
+                    </td><td class="calendarPast">
+                        <div class="calendarInner"><a href="#" class="moreEventsLink" data-bs-toggle="modal" data-bs-target="#events20260928"><span class="calendarDay">28</span></a><a href="events-and-markets/events/event-2266?date=2026-09-28" class="eventLink" style="width: 100%">
+                            <div class="calendarEvent" style="background-color: #212529;color: #fff;">10:00: Citizens Advice</div>
+                        </a><a href="events-and-markets/events/event-2488?date=2026-09-28" class="eventLink" style="width: 100%">
+                            <div class="calendarEvent" style="background-color: #212529;color: #fff;">14:00: Harpenden Memory Lan...</div>
+                        </a><a href="events-and-markets/events/Council28Sept26?date=2026-09-28" class="eventLink" style="width: 100%">
+                            <div class="calendarEvent" style="background-color: mediumseagreen;color: #fff;">19:30: Council 28 September...</div>
+                        </a></div>
+                    </td><td class="calendarPast">
+                        <div class="calendarInner"><a href="#" class="moreEventsLink" data-bs-toggle="modal" data-bs-target="#events20260929"><span class="calendarDay">29</span></a><a href="events-and-markets/events/event-2500?date=2026-09-29" class="eventLink" style="width: 100%">
+                            <div class="calendarEvent" style="background-color: #212529;color: #fff;">12:45: Harpenden Intergener...</div>
+                        </a></div>
+                    </td><td class="calendarPast">
+                        <div class="calendarInner"><a href="#" class="moreEventsLink" data-bs-toggle="modal" data-bs-target="#events20260930"><span class="calendarDay">30</span></a><a href="events-and-markets/events/event-2496?date=2026-09-30" class="eventLink" style="width: 100%">
+                            <div class="calendarEvent" style="background-color: #212529;color: #fff;">10:00: Arts & Culture Forum...</div>
+                        </a><a href="events-and-markets/events/event-1798?date=2026-09-30" class="eventLink" style="width: 100%">
+                            <div class="calendarEvent" style="background-color: #212529;color: #fff;">11:30: Citizens Advice St A...</div>
+                        </a></div>
+                    </td><td class="calendarPast">
+                        <div class="calendarInner"><span class="calendarDay">01</span></div>
+                    </td><td class="calendarPast">
+                        <div class="calendarInner"><span class="calendarDay">02</span></div>
+                    </td><td class="calendarPast">
+                        <div class="calendarInner"><span class="calendarDay">03</span></div>
+                    </td></tr><tr><td class="calendarPast">
+                        <div class="calendarInner"><span class="calendarDay">04</span></div>
+                    </td><td class="calendarPast">
+                        <div class="calendarInner"><a href="#" class="moreEventsLink" data-bs-toggle="modal" data-bs-target="#events20261005"><span class="calendarDay">05</span></a><a href="events-and-markets/events/event-2266?date=2026-10-05" class="eventLink" style="width: 100%">
+                            <div class="calendarEvent" style="background-color: #212529;color: #fff;">10:00: Citizens Advice</div>
+                        </a><a href="events-and-markets/events/event-2506?date=2026-10-05" class="eventLink" style="width: 100%">
+                            <div class="calendarEvent" style="background-color: #212529;color: #fff;">14:00: Memory Lane Cafe</div>
+                        </a></div>
+                    </td><td class="calendarPast">
+                        <div class="calendarInner"><a href="#" class="moreEventsLink" data-bs-toggle="modal" data-bs-target="#events20261006"><span class="calendarDay">06</span></a><a href="events-and-markets/events/event-2556?date=2026-10-06" class="eventLink" style="width: 100%">
+                            <div class="calendarEvent" style="background-color: #212529;color: #fff;">11:00: Everyday Life in Int...</div>
+                        </a><a href="events-and-markets/events/event-2548?date=2026-10-06" class="eventLink" style="width: 100%">
+                            <div class="calendarEvent" style="background-color: #212529;color: #fff;">12:45: Singing by Heart</div>
+                        </a></div>
+                    </td><td class="calendarPast">
+                        <div class="calendarInner"><a href="#" class="moreEventsLink" data-bs-toggle="modal" data-bs-target="#events20261007"><span class="calendarDay">07</span></a><a href="events-and-markets/events/event-2463?date=2026-10-07" class="eventLink" style="width: 100%">
+                            <div class="calendarEvent" style="background-color: #212529;color: #fff;">00:00: Come From Away</div>
+                        </a><a href="events-and-markets/events/event-1798?date=2026-10-07" class="eventLink" style="width: 100%">
+                            <div class="calendarEvent" style="background-color: #212529;color: #fff;">11:30: Citizens Advice St A...</div>
+                        </a></div>
+                    </td><td class="calendarPast">
+                        <div class="calendarInner"><a href="#" class="moreEventsLink" data-bs-toggle="modal" data-bs-target="#events20261008"><span class="calendarDay">08</span></a><a href="events-and-markets/events/event-2463?date=2026-10-08" class="eventLink" style="width: 100%">
+                            <div class="calendarEvent" style="background-color: #212529;color: #fff;">00:00: Come From Away</div>
+                        </a><a href="events-and-markets/events/event-2494?date=2026-10-08" class="eventLink" style="width: 100%">
+                            <div class="calendarEvent" style="background-color: #212529;color: #fff;">14:00: Thinking Ahead</div>
+                        </a></div>
+                    </td><td >
+                        <div class="calendarInner"><a href="#" class="moreEventsLink" data-bs-toggle="modal" data-bs-target="#events20261009"><span class="calendarDay current">09</span></a><a href="events-and-markets/events/event-2463?date=2026-10-09" class="eventLink" style="width: 100%">
+                            <div class="calendarEvent" style="background-color: #212529;color: #fff;">00:00: Come From Away</div>
+                        </a></div>
+                    </td><td >
+                        <div class="calendarInner"><a href="#" class="moreEventsLink" data-bs-toggle="modal" data-bs-target="#events20261010"><span class="calendarDay">10</span></a><a href="events-and-markets/events/event-2463?date=2026-10-10" class="eventLink" style="width: 100%">
+                            <div class="calendarEvent" style="background-color: #212529;color: #fff;">00:00: Come From Away</div>
+                        </a></div>
+                    </td></tr><tr><td >
+                        <div class="calendarInner"><span class="calendarDay">11</span></div>
+                    </td><td >
+                        <div class="calendarInner"><a href="#" class="moreEventsLink" data-bs-toggle="modal" data-bs-target="#events20261012"><span class="calendarDay">12</span></a><a href="events-and-markets/events/event-2266?date=2026-10-12" class="eventLink" style="width: 100%">
+                            <div class="calendarEvent" style="background-color: #212529;color: #fff;">10:00: Citizens Advice</div>
+                        </a><a href="events-and-markets/events/event-2506?date=2026-10-12" class="eventLink" style="width: 100%">
+                            <div class="calendarEvent" style="background-color: #212529;color: #fff;">14:00: Memory Lane Cafe</div>
+                        </a></div>
+                    </td><td >
+                        <div class="calendarInner"><a href="#" class="moreEventsLink" data-bs-toggle="modal" data-bs-target="#events20261013"><span class="calendarDay">13</span></a><a href="events-and-markets/events/event-2501?date=2026-10-13" class="eventLink" style="width: 100%">
+                            <div class="calendarEvent" style="background-color: #212529;color: #fff;">12:45: Harpenden Intergener...</div>
+                        </a><a href="events-and-markets/events/Planning13Oct26?date=2026-10-13" class="eventLink" style="width: 100%">
+                            <div class="calendarEvent" style="background-color: cornflowerblue;color: #fff;">19:30: Planning Committee 1...</div>
+                        </a></div>
+                    </td><td >
+                        <div class="calendarInner"><a href="#" class="moreEventsLink" data-bs-toggle="modal" data-bs-target="#events20261014"><span class="calendarDay">14</span></a><a href="events-and-markets/events/event-1798?date=2026-10-14" class="eventLink" style="width: 100%">
+                            <div class="calendarEvent" style="background-color: #212529;color: #fff;">11:30: Citizens Advice St A...</div>
+                        </a><a href="events-and-markets/events/event-2207?date=2026-10-14" class="eventLink" style="width: 100%">
+                            <div class="calendarEvent" style="background-color: #212529;color: #fff;">19:00: Harpenden Business F...</div>
+                        </a></div>
+                    </td><td >
+                        <div class="calendarInner"><span class="calendarDay">15</span></div>
+                    </td><td >
+                        <div class="calendarInner"><span class="calendarDay">16</span></div>
+                    </td><td >
+                        <div class="calendarInner"><a href="#" class="moreEventsLink" data-bs-toggle="modal" data-bs-target="#events20261017"><span class="calendarDay">17</span></a><a href="events-and-markets/events/event-2547?date=2026-10-17" class="eventLink" style="width: 100%">
+                            <div class="calendarEvent" style="background-color: #212529;color: #fff;">10:30: UNA Harpenden Public...</div>
+                        </a></div>
+                    </td></tr><tr><td >
+                        <div class="calendarInner"><span class="calendarDay">18</span></div>
+                    </td><td >
+                        <div class="calendarInner"><a href="#" class="moreEventsLink" data-bs-toggle="modal" data-bs-target="#events20261019"><span class="calendarDay">19</span></a><a href="events-and-markets/events/event-2266?date=2026-10-19" class="eventLink" style="width: 100%">
+                            <div class="calendarEvent" style="background-color: #212529;color: #fff;">10:00: Citizens Advice</div>
+                        </a><a href="events-and-markets/events/event-2506?date=2026-10-19" class="eventLink" style="width: 100%">
+                            <div class="calendarEvent" style="background-color: #212529;color: #fff;">14:00: Memory Lane Cafe</div>
+                        </a></div>
+                    </td><td >
+                        <div class="calendarInner"><a href="#" class="moreEventsLink" data-bs-toggle="modal" data-bs-target="#events20261020"><span class="calendarDay">20</span></a><a href="events-and-markets/events/event-2502?date=2026-10-20" class="eventLink" style="width: 100%">
+                            <div class="calendarEvent" style="background-color: #212529;color: #fff;">12:45: Harpenden Intergener...</div>
+                        </a></div>
+                    </td><td >
+                        <div class="calendarInner"><a href="#" class="moreEventsLink" data-bs-toggle="modal" data-bs-target="#events20261021"><span class="calendarDay">21</span></a><a href="events-and-markets/events/event-1798?date=2026-10-21" class="eventLink" style="width: 100%">
+                            <div class="calendarEvent" style="background-color: #212529;color: #fff;">11:30: Citizens Advice St A...</div>
+                        </a></div>
+                    </td><td >
+                        <div class="calendarInner"><span class="calendarDay">22</span></div>
+                    </td><td >
+                        <div class="calendarInner"><span class="calendarDay">23</span></div>
+                    </td><td >
+                        <div class="calendarInner"><a href="#" class="moreEventsLink" data-bs-toggle="modal" data-bs-target="#events20261024"><span class="calendarDay">24</span></a><a href="events-and-markets/events/event-2462?date=2026-10-24" class="eventLink" style="width: 100%">
+                            <div class="calendarEvent" style="background-color: #212529;color: #fff;">11:00: Opening of the Field...</div>
+                        </a></div>
+                    </td></tr><tr><td >
+                        <div class="calendarInner"><a href="#" class="moreEventsLink" data-bs-toggle="modal" data-bs-target="#events20261025"><span class="calendarDay">25</span></a><a href="events-and-markets/events/event-2170?date=2026-10-25" class="eventLink" style="width: 100%">
+                            <div class="calendarEvent" style="background-color: #212529;color: #fff;">10:00: Farmers' Market</div>
+                        </a></div>
+                    </td><td >
+                        <div class="calendarInner"><a href="#" class="moreEventsLink" data-bs-toggle="modal" data-bs-target="#events20261026"><span class="calendarDay">26</span></a><a href="events-and-markets/events/event-2266?date=2026-10-26" class="eventLink" style="width: 100%">
+                            <div class="calendarEvent" style="background-color: #212529;color: #fff;">10:00: Citizens Advice</div>
+                        </a><a href="events-and-markets/events/event-2506?date=2026-10-26" class="eventLink" style="width: 100%">
+                            <div class="calendarEvent" style="background-color: #212529;color: #fff;">14:00: Memory Lane Cafe</div>
+                        </a></div>
+                    </td><td >
+                        <div class="calendarInner"><a href="#" class="moreEventsLink" data-bs-toggle="modal" data-bs-target="#events20261027"><span class="calendarDay">27</span></a><a href="events-and-markets/events/event-2549?date=2026-10-27" class="eventLink" style="width: 100%">
+                            <div class="calendarEvent" style="background-color: #212529;color: #fff;">12:45: Singing by Heart</div>
+                        </a></div>
+                    </td><td >
+                        <div class="calendarInner"><a href="#" class="moreEventsLink" data-bs-toggle="modal" data-bs-target="#events20261028"><span class="calendarDay">28</span></a><a href="events-and-markets/events/event-1798?date=2026-10-28" class="eventLink" style="width: 100%">
+                            <div class="calendarEvent" style="background-color: #212529;color: #fff;">11:30: Citizens Advice St A...</div>
+                        </a></div>
+                    </td><td >
+                        <div class="calendarInner"><span class="calendarDay">29</span></div>
+                    </td><td >
+                        <div class="calendarInner"><span class="calendarDay">30</span></div>
+                    </td><td >
+                        <div class="calendarInner"><span class="calendarDay">31</span></div>
+                    </td></tr></tbody>
+                        </table>
+                    </div><div class="calendarControls">
+                    <a href="/events-and-markets/calendar?date=2026-09-09" class="btn btn-primary text-light">Previous Month</a>
+                    <a href="/events-and-markets/calendar?date=2026-11-09" class="btn btn-primary text-light">Next Month</a>
+                </div></div><div class="modal fade calendarModal" id="events20260927" tabindex="-1">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title">Events for 27th September 2026</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+
+                            <div class="modal-body"><a href="events-and-markets/events/event-2164?date=2026-09-27" class="eventLink" style="width: 100%">
+                            <div class="calendarEvent" style="background-color: #212529;color: #fff;">10:00: Farmers' Market</div>
+                        </a></div>
+                        </div>
+                    </div>
+                </div><div class="modal fade calendarModal" id="events20260928" tabindex="-1">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title">Events for 28th September 2026</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+
+                            <div class="modal-body"><a href="events-and-markets/events/event-2266?date=2026-09-28" class="eventLink" style="width: 100%">
+                            <div class="calendarEvent" style="background-color: #212529;color: #fff;">10:00: Citizens Advice</div>
+                        </a><a href="events-and-markets/events/event-2488?date=2026-09-28" class="eventLink" style="width: 100%">
+                            <div class="calendarEvent" style="background-color: #212529;color: #fff;">14:00: Harpenden Memory Lane Cafe</div>
+                        </a><a href="events-and-markets/events/Council28Sept26?date=2026-09-28" class="eventLink" style="width: 100%">
+                            <div class="calendarEvent" style="background-color: mediumseagreen;color: #fff;">19:30: Council 28 September 2026</div>
+                        </a></div>
+                        </div>
+                    </div>
+                </div><div class="modal fade calendarModal" id="events20260929" tabindex="-1">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title">Events for 29th September 2026</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+
+                            <div class="modal-body"><a href="events-and-markets/events/event-2500?date=2026-09-29" class="eventLink" style="width: 100%">
+                            <div class="calendarEvent" style="background-color: #212529;color: #fff;">12:45: Harpenden Intergenerational Singing</div>
+                        </a></div>
+                        </div>
+                    </div>
+                </div><div class="modal fade calendarModal" id="events20260930" tabindex="-1">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title">Events for 30th September 2026</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+
+                            <div class="modal-body"><a href="events-and-markets/events/event-2496?date=2026-09-30" class="eventLink" style="width: 100%">
+                            <div class="calendarEvent" style="background-color: #212529;color: #fff;">10:00: Arts & Culture Forum Meeting</div>
+                        </a><a href="events-and-markets/events/event-1798?date=2026-09-30" class="eventLink" style="width: 100%">
+                            <div class="calendarEvent" style="background-color: #212529;color: #fff;">11:30: Citizens Advice St Albans District</div>
+                        </a></div>
+                        </div>
+                    </div>
+                </div><div class="modal fade calendarModal" id="events20261001" tabindex="-1">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title">Events for 1st October 2026</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+
+                            <div class="modal-body"></div>
+                        </div>
+                    </div>
+                </div><div class="modal fade calendarModal" id="events20261002" tabindex="-1">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title">Events for 2nd October 2026</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+
+                            <div class="modal-body"></div>
+                        </div>
+                    </div>
+                </div><div class="modal fade calendarModal" id="events20261003" tabindex="-1">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title">Events for 3rd October 2026</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+
+                            <div class="modal-body"></div>
+                        </div>
+                    </div>
+                </div><div class="modal fade calendarModal" id="events20261004" tabindex="-1">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title">Events for 4th October 2026</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+
+                            <div class="modal-body"></div>
+                        </div>
+                    </div>
+                </div><div class="modal fade calendarModal" id="events20261005" tabindex="-1">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title">Events for 5th October 2026</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+
+                            <div class="modal-body"><a href="events-and-markets/events/event-2266?date=2026-10-05" class="eventLink" style="width: 100%">
+                            <div class="calendarEvent" style="background-color: #212529;color: #fff;">10:00: Citizens Advice</div>
+                        </a><a href="events-and-markets/events/event-2506?date=2026-10-05" class="eventLink" style="width: 100%">
+                            <div class="calendarEvent" style="background-color: #212529;color: #fff;">14:00: Memory Lane Cafe</div>
+                        </a></div>
+                        </div>
+                    </div>
+                </div><div class="modal fade calendarModal" id="events20261006" tabindex="-1">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title">Events for 6th October 2026</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+
+                            <div class="modal-body"><a href="events-and-markets/events/event-2556?date=2026-10-06" class="eventLink" style="width: 100%">
+                            <div class="calendarEvent" style="background-color: #212529;color: #fff;">11:00: Everyday Life in Inter-War Harpenden</div>
+                        </a><a href="events-and-markets/events/event-2548?date=2026-10-06" class="eventLink" style="width: 100%">
+                            <div class="calendarEvent" style="background-color: #212529;color: #fff;">12:45: Singing by Heart</div>
+                        </a></div>
+                        </div>
+                    </div>
+                </div><div class="modal fade calendarModal" id="events20261007" tabindex="-1">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title">Events for 7th October 2026</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+
+                            <div class="modal-body"><a href="events-and-markets/events/event-2463?date=2026-10-07" class="eventLink" style="width: 100%">
+                            <div class="calendarEvent" style="background-color: #212529;color: #fff;">00:00: Come From Away</div>
+                        </a><a href="events-and-markets/events/event-1798?date=2026-10-07" class="eventLink" style="width: 100%">
+                            <div class="calendarEvent" style="background-color: #212529;color: #fff;">11:30: Citizens Advice St Albans District</div>
+                        </a></div>
+                        </div>
+                    </div>
+                </div><div class="modal fade calendarModal" id="events20261008" tabindex="-1">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title">Events for 8th October 2026</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+
+                            <div class="modal-body"><a href="events-and-markets/events/event-2463?date=2026-10-08" class="eventLink" style="width: 100%">
+                            <div class="calendarEvent" style="background-color: #212529;color: #fff;">00:00: Come From Away</div>
+                        </a><a href="events-and-markets/events/event-2494?date=2026-10-08" class="eventLink" style="width: 100%">
+                            <div class="calendarEvent" style="background-color: #212529;color: #fff;">14:00: Thinking Ahead</div>
+                        </a></div>
+                        </div>
+                    </div>
+                </div><div class="modal fade calendarModal" id="events20261009" tabindex="-1">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title">Events for 9th October 2026</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+
+                            <div class="modal-body"><a href="events-and-markets/events/event-2463?date=2026-10-09" class="eventLink" style="width: 100%">
+                            <div class="calendarEvent" style="background-color: #212529;color: #fff;">00:00: Come From Away</div>
+                        </a></div>
+                        </div>
+                    </div>
+                </div><div class="modal fade calendarModal" id="events20261010" tabindex="-1">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title">Events for 10th October 2026</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+
+                            <div class="modal-body"><a href="events-and-markets/events/event-2463?date=2026-10-10" class="eventLink" style="width: 100%">
+                            <div class="calendarEvent" style="background-color: #212529;color: #fff;">00:00: Come From Away</div>
+                        </a></div>
+                        </div>
+                    </div>
+                </div><div class="modal fade calendarModal" id="events20261011" tabindex="-1">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title">Events for 11th October 2026</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+
+                            <div class="modal-body"></div>
+                        </div>
+                    </div>
+                </div><div class="modal fade calendarModal" id="events20261012" tabindex="-1">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title">Events for 12th October 2026</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+
+                            <div class="modal-body"><a href="events-and-markets/events/event-2266?date=2026-10-12" class="eventLink" style="width: 100%">
+                            <div class="calendarEvent" style="background-color: #212529;color: #fff;">10:00: Citizens Advice</div>
+                        </a><a href="events-and-markets/events/event-2506?date=2026-10-12" class="eventLink" style="width: 100%">
+                            <div class="calendarEvent" style="background-color: #212529;color: #fff;">14:00: Memory Lane Cafe</div>
+                        </a></div>
+                        </div>
+                    </div>
+                </div><div class="modal fade calendarModal" id="events20261013" tabindex="-1">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title">Events for 13th October 2026</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+
+                            <div class="modal-body"><a href="events-and-markets/events/event-2501?date=2026-10-13" class="eventLink" style="width: 100%">
+                            <div class="calendarEvent" style="background-color: #212529;color: #fff;">12:45: Harpenden Intergenerational Singing</div>
+                        </a><a href="events-and-markets/events/Planning13Oct26?date=2026-10-13" class="eventLink" style="width: 100%">
+                            <div class="calendarEvent" style="background-color: cornflowerblue;color: #fff;">19:30: Planning Committee 13 October 2026</div>
+                        </a></div>
+                        </div>
+                    </div>
+                </div><div class="modal fade calendarModal" id="events20261014" tabindex="-1">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title">Events for 14th October 2026</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+
+                            <div class="modal-body"><a href="events-and-markets/events/event-1798?date=2026-10-14" class="eventLink" style="width: 100%">
+                            <div class="calendarEvent" style="background-color: #212529;color: #fff;">11:30: Citizens Advice St Albans District</div>
+                        </a><a href="events-and-markets/events/event-2207?date=2026-10-14" class="eventLink" style="width: 100%">
+                            <div class="calendarEvent" style="background-color: #212529;color: #fff;">19:00: Harpenden Business Forum</div>
+                        </a></div>
+                        </div>
+                    </div>
+                </div><div class="modal fade calendarModal" id="events20261015" tabindex="-1">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title">Events for 15th October 2026</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+
+                            <div class="modal-body"></div>
+                        </div>
+                    </div>
+                </div><div class="modal fade calendarModal" id="events20261016" tabindex="-1">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title">Events for 16th October 2026</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+
+                            <div class="modal-body"></div>
+                        </div>
+                    </div>
+                </div><div class="modal fade calendarModal" id="events20261017" tabindex="-1">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title">Events for 17th October 2026</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+
+                            <div class="modal-body"><a href="events-and-markets/events/event-2547?date=2026-10-17" class="eventLink" style="width: 100%">
+                            <div class="calendarEvent" style="background-color: #212529;color: #fff;">10:30: UNA Harpenden Public Lecture</div>
+                        </a></div>
+                        </div>
+                    </div>
+                </div><div class="modal fade calendarModal" id="events20261018" tabindex="-1">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title">Events for 18th October 2026</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+
+                            <div class="modal-body"></div>
+                        </div>
+                    </div>
+                </div><div class="modal fade calendarModal" id="events20261019" tabindex="-1">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title">Events for 19th October 2026</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+
+                            <div class="modal-body"><a href="events-and-markets/events/event-2266?date=2026-10-19" class="eventLink" style="width: 100%">
+                            <div class="calendarEvent" style="background-color: #212529;color: #fff;">10:00: Citizens Advice</div>
+                        </a><a href="events-and-markets/events/event-2506?date=2026-10-19" class="eventLink" style="width: 100%">
+                            <div class="calendarEvent" style="background-color: #212529;color: #fff;">14:00: Memory Lane Cafe</div>
+                        </a></div>
+                        </div>
+                    </div>
+                </div><div class="modal fade calendarModal" id="events20261020" tabindex="-1">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title">Events for 20th October 2026</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+
+                            <div class="modal-body"><a href="events-and-markets/events/event-2502?date=2026-10-20" class="eventLink" style="width: 100%">
+                            <div class="calendarEvent" style="background-color: #212529;color: #fff;">12:45: Harpenden Intergenerational Singing</div>
+                        </a></div>
+                        </div>
+                    </div>
+                </div><div class="modal fade calendarModal" id="events20261021" tabindex="-1">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title">Events for 21st October 2026</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+
+                            <div class="modal-body"><a href="events-and-markets/events/event-1798?date=2026-10-21" class="eventLink" style="width: 100%">
+                            <div class="calendarEvent" style="background-color: #212529;color: #fff;">11:30: Citizens Advice St Albans District</div>
+                        </a></div>
+                        </div>
+                    </div>
+                </div><div class="modal fade calendarModal" id="events20261022" tabindex="-1">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title">Events for 22nd October 2026</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+
+                            <div class="modal-body"></div>
+                        </div>
+                    </div>
+                </div><div class="modal fade calendarModal" id="events20261023" tabindex="-1">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title">Events for 23rd October 2026</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+
+                            <div class="modal-body"></div>
+                        </div>
+                    </div>
+                </div><div class="modal fade calendarModal" id="events20261024" tabindex="-1">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title">Events for 24th October 2026</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+
+                            <div class="modal-body"><a href="events-and-markets/events/event-2462?date=2026-10-24" class="eventLink" style="width: 100%">
+                            <div class="calendarEvent" style="background-color: #212529;color: #fff;">11:00: Opening of the Field of Remembrance 2026</div>
+                        </a></div>
+                        </div>
+                    </div>
+                </div><div class="modal fade calendarModal" id="events20261025" tabindex="-1">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title">Events for 25th October 2026</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+
+                            <div class="modal-body"><a href="events-and-markets/events/event-2170?date=2026-10-25" class="eventLink" style="width: 100%">
+                            <div class="calendarEvent" style="background-color: #212529;color: #fff;">10:00: Farmers' Market</div>
+                        </a></div>
+                        </div>
+                    </div>
+                </div><div class="modal fade calendarModal" id="events20261026" tabindex="-1">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title">Events for 26th October 2026</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+
+                            <div class="modal-body"><a href="events-and-markets/events/event-2266?date=2026-10-26" class="eventLink" style="width: 100%">
+                            <div class="calendarEvent" style="background-color: #212529;color: #fff;">10:00: Citizens Advice</div>
+                        </a><a href="events-and-markets/events/event-2506?date=2026-10-26" class="eventLink" style="width: 100%">
+                            <div class="calendarEvent" style="background-color: #212529;color: #fff;">14:00: Memory Lane Cafe</div>
+                        </a></div>
+                        </div>
+                    </div>
+                </div><div class="modal fade calendarModal" id="events20261027" tabindex="-1">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title">Events for 27th October 2026</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+
+                            <div class="modal-body"><a href="events-and-markets/events/event-2549?date=2026-10-27" class="eventLink" style="width: 100%">
+                            <div class="calendarEvent" style="background-color: #212529;color: #fff;">12:45: Singing by Heart</div>
+                        </a></div>
+                        </div>
+                    </div>
+                </div><div class="modal fade calendarModal" id="events20261028" tabindex="-1">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title">Events for 28th October 2026</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+
+                            <div class="modal-body"><a href="events-and-markets/events/event-1798?date=2026-10-28" class="eventLink" style="width: 100%">
+                            <div class="calendarEvent" style="background-color: #212529;color: #fff;">11:30: Citizens Advice St Albans District</div>
+                        </a></div>
+                        </div>
+                    </div>
+                </div><div class="modal fade calendarModal" id="events20261029" tabindex="-1">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title">Events for 29th October 2026</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+
+                            <div class="modal-body"></div>
+                        </div>
+                    </div>
+                </div><div class="modal fade calendarModal" id="events20261030" tabindex="-1">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title">Events for 30th October 2026</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+
+                            <div class="modal-body"></div>
+                        </div>
+                    </div>
+                </div><div class="modal fade calendarModal" id="events20261031" tabindex="-1">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title">Events for 31st October 2026</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+
+                            <div class="modal-body"></div>
+                        </div>
+                    </div>
+                </div>    </div>
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+			<footer id="pageFooter" class="bg-white text-dark py-5">
+				<div class="footerInner container-xl">
+                    <div class="row">
+                        <div class="links col-md mb-3">
+                            
+                                                            <div class="row d-xl-flex align-items-start justify-content-start">
+                                                                            
+                                        <div class="col-sm-6 col-md-4 col-xxl-2 pe-0">
+                                            <h6><a class="link-primary" href="community" >Community</a></h6>
+
+                                                                                            <ul class="nav">
+                                                                                                            <li class="nav-item"><a class="nav-link link-dark" href="community/volunteering-opportunities">Volunteering Opportunities</a></li>
+                                                                                                            <li class="nav-item"><a class="nav-link link-dark" href="dementia-friendly-town">Dementia Friendly Harpenden</a></li>
+                                                                                                            <li class="nav-item"><a class="nav-link link-dark" href="banking-hub">Banking Hub</a></li>
+                                                                                                            <li class="nav-item"><a class="nav-link link-dark" href="community/winter-support">Winter Support Plan</a></li>
+                                                                                                            <li class="nav-item"><a class="nav-link link-dark" href="community/arts-culture">Arts and Culture</a></li>
+                                                                                                            <li class="nav-item"><a class="nav-link link-dark" href="community/community-connect">Community Support</a></li>
+                                                                                                            <li class="nav-item"><a class="nav-link link-dark" href="community/community-grants">Community Grants</a></li>
+                                                                                                            <li class="nav-item"><a class="nav-link link-dark" href="business-support">Business Support</a></li>
+                                                                                                            <li class="nav-item"><a class="nav-link link-dark" href="sports-forum">Sports Forum</a></li>
+                                                                                                    </ul>
+                                                                                    </div>
+                                                                            
+                                        <div class="col-sm-6 col-md-4 col-xxl-2 pe-0">
+                                            <h6><a class="link-primary" href="green-spaces" >Environment</a></h6>
+
+                                                                                            <ul class="nav">
+                                                                                                            <li class="nav-item"><a class="nav-link link-dark" href="green-spaces/batford-springs-nature-reserve">Batford Springs Nature Reserve</a></li>
+                                                                                                            <li class="nav-item"><a class="nav-link link-dark" href="green-spaces/harpenden-common">Harpenden Common</a></li>
+                                                                                                            <li class="nav-item"><a class="nav-link link-dark" href="green-spaces/lydekker-park">Lydekker Park</a></li>
+                                                                                                            <li class="nav-item"><a class="nav-link link-dark" href="green-spaces/rothamsted-park">Rothamsted Park</a></li>
+                                                                                                            <li class="nav-item"><a class="nav-link link-dark" href="green-spaces/other">Other Green Spaces</a></li>
+                                                                                                            <li class="nav-item"><a class="nav-link link-dark" href="green-spaces/allotments">Allotments</a></li>
+                                                                                                            <li class="nav-item"><a class="nav-link link-dark" href="green-spaces/tree-management">Tree Management</a></li>
+                                                                                                            <li class="nav-item"><a class="nav-link link-dark" href="green-spaces/floraldisplays">Floral Displays</a></li>
+                                                                                                            <li class="nav-item"><a class="nav-link link-dark" href="loop">The Harpenden Green Loop</a></li>
+                                                                                                    </ul>
+                                                                                    </div>
+                                                                            
+                                        <div class="col-sm-6 col-md-4 col-xxl-2 pe-0">
+                                            <h6><a class="link-primary" href="news-and-initiatives" >News & Current Initiatives</a></h6>
+
+                                                                                            <ul class="nav">
+                                                                                                            <li class="nav-item"><a class="nav-link link-dark" href="news-and-initiatives/press-releases">Press Releases</a></li>
+                                                                                                            <li class="nav-item"><a class="nav-link link-dark" href="news-and-initiatives/forum">Forum Newsletter</a></li>
+                                                                                                            <li class="nav-item"><a class="nav-link link-dark" href="community/batford">Batford Neighbourhood Survey</a></li>
+                                                                                                    </ul>
+                                                                                    </div>
+                                                                            
+                                        <div class="col-sm-6 col-md-4 col-xxl-2 pe-0">
+                                            <h6><a class="link-primary" href="events-and-markets" >Events & Markets</a></h6>
+
+                                                                                            <ul class="nav">
+                                                                                                            <li class="nav-item"><a class="nav-link link-dark" href="events-and-markets/events">Harpenden Town Council Events</a></li>
+                                                                                                            <li class="nav-item"><a class="nav-link link-dark" href="events-and-markets/calendar">Calendar</a></li>
+                                                                                                            <li class="nav-item"><a class="nav-link link-dark" href="events-and-markets/farmers-market">Farmers Market</a></li>
+                                                                                                            <li class="nav-item"><a class="nav-link link-dark" href="events-and-markets/sustainability-market">Sustainability Market</a></li>
+                                                                                                            <li class="nav-item"><a class="nav-link link-dark" href="events-and-markets/sponsorship-opportunities">Sponsorship Opportunities</a></li>
+                                                                                                    </ul>
+                                                                                    </div>
+                                                                            
+                                        <div class="col-sm-6 col-md-4 col-xxl-2 pe-0">
+                                            <h6><a class="link-primary" href="facilities" >Facilities</a></h6>
+
+                                                                                            <ul class="nav">
+                                                                                                            <li class="nav-item"><a class="nav-link link-dark" href="https://harpenden.gov.uk/sport">Sports Facilities</a></li>
+                                                                                                            <li class="nav-item"><a class="nav-link link-dark" href="facilities/park-hall">Park Hall Community Hall</a></li>
+                                                                                                            <li class="nav-item"><a class="nav-link link-dark" href="facilities/defibrillators">Defibrillators</a></li>
+                                                                                                            <li class="nav-item"><a class="nav-link link-dark" href="facilities/public-conveniences">Public Conveniences</a></li>
+                                                                                                            <li class="nav-item"><a class="nav-link link-dark" href="facilities/concourse-bookings">Concourse Bookings</a></li>
+                                                                                                    </ul>
+                                                                                    </div>
+                                                                            
+                                        <div class="col-sm-6 col-md-4 col-xxl-2 pe-0">
+                                            <h6><a class="link-primary" href="the-council" >The Council</a></h6>
+
+                                                                                            <ul class="nav">
+                                                                                                            <li class="nav-item"><a class="nav-link link-dark" href="#about">About Harpenden Town Council</a></li>
+                                                                                                            <li class="nav-item"><a class="nav-link link-dark" href="the-council/town-mayor">Town Mayor</a></li>
+                                                                                                            <li class="nav-item"><a class="nav-link link-dark" href="the-council/councillors">Councillors</a></li>
+                                                                                                            <li class="nav-item"><a class="nav-link link-dark" href="the-council/council-staff">Council Staff</a></li>
+                                                                                                            <li class="nav-item"><a class="nav-link link-dark" href="the-council/council-meetings">Council Meetings</a></li>
+                                                                                                            <li class="nav-item"><a class="nav-link link-dark" href="community/town-twinning">Town Twinning</a></li>
+                                                                                                            <li class="nav-item"><a class="nav-link link-dark" href="the-council/key-financial-and-statutory-documents">Key Financial & Statutory Documents</a></li>
+                                                                                                            <li class="nav-item"><a class="nav-link link-dark" href="the-council/vacancies">Vacancies</a></li>
+                                                                                                            <li class="nav-item"><a class="nav-link link-dark" href="the-council/tenders">Tenders</a></li>
+                                                                                                    </ul>
+                                                                                    </div>
+                                                                    </div>
+                                                    </div>
+
+                        <div class="additional col-md-auto mb-3">
+                            <img src="source/logos/harpenden-logo.png" alt="Harpenden Town Council Logo" class="siteLogo img-fluid mb-4">
+                            <div class="contact">
+                                         
+                                                                            
+                                        <div class="social mb-2" id="_facebook">
+                                            <a href="https://www.facebook.com/HarpendenTownCouncil" target="_blank" class="link-dark">
+                                                <span>Like us on Facebook</span>
+                                            </a>
+                                            <span class="fab fa-facebook-f ms-2"></span>
+                                        </div>
+                                                                            
+                                        <div class="social mb-2" id="_twitter">
+                                            <a href="https://twitter.com/HarpendenTown" target="_blank" class="link-dark">
+                                                <span>Follow us on Twitter</span>
+                                            </a>
+                                            <span class="fab fa-twitter ms-2"></span>
+                                        </div>
+                                                                            
+                                        <div class="social mb-2" id="_instagram">
+                                            <a href="https://www.instagram.com/harpendentowncouncil/" target="_blank" class="link-dark">
+                                                <span>Follow us on Instagram</span>
+                                            </a>
+                                            <span class="fab fa-instagram ms-2"></span>
+                                        </div>
+                                                                    
+                                                                    <div class="phone mb-2">
+                                        <a href="tel: 01582 768278" class="link-dark">01582 768278</a>
+                                        <span class="fa fa-phone-alt ms-2"></span>
+                                    </div>
+                                                                
+                                                                    <div class="email mb-2">
+                                        <a href="mailto: harpenden.town.council@harpenden.gov.uk" class="link-dark">harpenden.town.council<wbr>@harpenden.gov.uk</a>
+                                        <span class="fab fa-telegram-plane ms-2"></span>
+                                    </div>
+                                
+                                <div class="contactLink">
+                                    <a href="contact" class="link-dark">Contact &amp; Forms</a>
+                                    <span class="fa fa-envelope ms-2"></span>
+                                </div>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 subFooter mt-n3 mb-n5">
+                    
+                    <ul class="navbar-nav">
+                                                                                    <li class="nav-item"><a class="nav-link link-dark" href="terms-and-conditions" >Terms & Conditions</a></li>
+                                <li class="nav-spacer"></li>
+                                                            <li class="nav-item"><a class="nav-link link-dark" href="privacy-policy" >Privacy Policy</a></li>
+                                <li class="nav-spacer"></li>
+                                                    
+                        <li class="nav-item py-1">&copy; Harpenden Town Council 2022 - 2026</li>
+                    </ul>
+                </div>
+			</footer>
+		</div>
+
+        
+        <script src="js/main.min.js"></script>
+        <script src="js/retina.min.js"></script>
+	</body>
+</html>
