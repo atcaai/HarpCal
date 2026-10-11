@@ -3,14 +3,14 @@
 This repository creates an automatically updated `.ics` feed from various calendar websites.
 
 
-**Harpenden Town Calendar
-**(scraper_htc.py)
+### Harpenden Town Calendar
+(scraper_htc.py)
 Excluded:
 - Citizens Advice
 - Planning Committee
 
-**Eric Morecambe Centre
-**(scraper_emc.py)
+### Eric Morecambe Centre
+(scraper_emc.py)
 No exclusions
 
 ## Setup
