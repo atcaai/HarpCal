@@ -4,4 +4,825 @@ PRODID:-//Eric Morecambe Centre Events//
 CALSCALE:GREGORIAN
 X-WR-CALNAME:Harps - Eric Morecambe Centre Events
 X-WR-TIMEZONE:Europe/London
+BEGIN:VEVENT
+SUMMARY:Dr Richard Shepherd: Time of Death – More Unnatural Causes.
+DTSTART:20261014T193000
+DTEND:20261014T213000
+DTSTAMP:20261011T220238Z
+UID:164e16fe9e0cc83f0ef3507936f211d1f6b8cb7d96b1274655466ef9a3fec64d@emc-c
+ alendar
+DESCRIPTION:Source: https://everyonetheatres.com/whats-on/dr-richard-sheph
+ erd-time-of-death-more-unnatural-causes/
+URL:https://everyonetheatres.com/whats-on/dr-richard-shepherd-time-of-deat
+ h-more-unnatural-causes/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:The Arts Society Harpenden Area
+DTSTART:20261015T193000
+DTEND:20261015T213000
+DTSTAMP:20261011T220238Z
+UID:186e62d177b4f2e66b92c8f5ba4eda27a59496e4c8ea76b17c5d954c2247523f@emc-c
+ alendar
+DESCRIPTION:Source: https://everyonetheatres.com/whats-on/the-arts-society
+ -harpenden-area-2/
+URL:https://everyonetheatres.com/whats-on/the-arts-society-harpenden-area-
+ 2/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Oasiz
+DTSTART:20261016T193000
+DTEND:20261016T213000
+DTSTAMP:20261011T220238Z
+UID:01a836ec53c9ee507aa87ad60b0d2306ea13d53308e17bface2b2b421264ff15@emc-c
+ alendar
+DESCRIPTION:Source: https://everyonetheatres.com/whats-on/oasiz/
+URL:https://everyonetheatres.com/whats-on/oasiz/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Kerry Ellis – Rock Anthems
+DTSTART:20261017T193000
+DTEND:20261017T213000
+DTSTAMP:20261011T220238Z
+UID:4c7de8dbf5c50f3ba0a5452d0e2cb5e5fe5c39d075dbf1185c133b70b754f47f@emc-c
+ alendar
+DESCRIPTION:Source: https://everyonetheatres.com/whats-on/kerry-ellis-rock
+ -anthems/
+URL:https://everyonetheatres.com/whats-on/kerry-ellis-rock-anthems/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Choose George: Celebrating George Michael
+DTSTART:20261018T193000
+DTEND:20261018T213000
+DTSTAMP:20261011T220238Z
+UID:6ffdaf8bb2efd72dab409d1af39a2e509f96f34b582f0b3038dc353ad7157ae6@emc-c
+ alendar
+DESCRIPTION:Source: https://everyonetheatres.com/whats-on/choose-george-ce
+ lebrating-george-michael-2/
+URL:https://everyonetheatres.com/whats-on/choose-george-celebrating-george
+ -michael-2/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:An Evening with Tottenham Legends
+DTSTART:20261020T193000
+DTEND:20261020T213000
+DTSTAMP:20261011T220238Z
+UID:cae28bdede9ec1439db5d7ec92b9571ec2e13bd5cb990d6ddf5ae3b50b832b0c@emc-c
+ alendar
+DESCRIPTION:Source: https://everyonetheatres.com/whats-on/an-evening-with-
+ tottenham-legends/
+URL:https://everyonetheatres.com/whats-on/an-evening-with-tottenham-legend
+ s/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:The Arts Society Harpenden Evening
+DTSTART:20261021T193000
+DTEND:20261021T213000
+DTSTAMP:20261011T220238Z
+UID:5466375769286f26ca8a795b6e9bf323f4cfc889c7a2ce5001261eef9e2cb96e@emc-c
+ alendar
+DESCRIPTION:Source: https://everyonetheatres.com/whats-on/the-arts-society
+ -harpenden-evening-2/
+URL:https://everyonetheatres.com/whats-on/the-arts-society-harpenden-eveni
+ ng-2/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Rave On
+DTSTART:20261023T193000
+DTEND:20261023T213000
+DTSTAMP:20261011T220238Z
+UID:b3fdf2e11972b31b34ab61ff85edcc856d3c38a1a36afb992e55b88c9c57f4fe@emc-c
+ alendar
+DESCRIPTION:Source: https://everyonetheatres.com/whats-on/rave-on/
+URL:https://everyonetheatres.com/whats-on/rave-on/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:New Dawn Fades – A Play About JOY DIVISION and MANCHESTER
+DTSTART:20261024T193000
+DTEND:20261024T213000
+DTSTAMP:20261011T220238Z
+UID:44ef14e1877c79b2d74fd5e1816100e96ddf3decc75d13b6f42a8489c4588a08@emc-c
+ alendar
+DESCRIPTION:Source: https://everyonetheatres.com/whats-on/new-dawn-fades-a
+ -play-about-joy-division-and-manchester/
+URL:https://everyonetheatres.com/whats-on/new-dawn-fades-a-play-about-joy-
+ division-and-manchester/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Go West – We Close Our Eyes\, And Other Stories
+DTSTART:20261025T193000
+DTEND:20261025T213000
+DTSTAMP:20261011T220238Z
+UID:33f8adac8bce89ac0ee51fb80d60ad347211969a0f64e8a2b3f347d6af647f52@emc-c
+ alendar
+DESCRIPTION:Source: https://everyonetheatres.com/whats-on/go-west-we-close
+ -our-eyes-and-other-stories/
+URL:https://everyonetheatres.com/whats-on/go-west-we-close-our-eyes-and-ot
+ her-stories/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:The Amazing Bubbleman
+DTSTART:20261026T193000
+DTEND:20261026T213000
+DTSTAMP:20261011T220238Z
+UID:6cae96ad63e4db5b411b72089d8b188b1409fe35a94e0fabc6444bced41603bd@emc-c
+ alendar
+DESCRIPTION:Source: https://everyonetheatres.com/whats-on/the-amazing-bubb
+ leman/
+URL:https://everyonetheatres.com/whats-on/the-amazing-bubbleman/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Ruby Wax: Absolutely Famous
+DTSTART:20261027T193000
+DTEND:20261027T213000
+DTSTAMP:20261011T220238Z
+UID:c02b5226b5c0bc67ae7ab8f528ba757b4cbb788143cb6bff680366a6c805be36@emc-c
+ alendar
+DESCRIPTION:Source: https://everyonetheatres.com/whats-on/ruby-wax-absolut
+ ely-famous/
+URL:https://everyonetheatres.com/whats-on/ruby-wax-absolutely-famous/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Andy Hamilton’s Night To Remember
+DTSTART:20261029T193000
+DTEND:20261029T213000
+DTSTAMP:20261011T220238Z
+UID:cd168179bfbf71b487813b0a2ac6270c8611b66e643e03999719780c54685abb@emc-c
+ alendar
+DESCRIPTION:Source: https://everyonetheatres.com/whats-on/andy-hamiltons-n
+ ight-to-remember/
+URL:https://everyonetheatres.com/whats-on/andy-hamiltons-night-to-remember
+ /
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Frank Sinatra Big Band Bash
+DTSTART:20261030T193000
+DTEND:20261030T213000
+DTSTAMP:20261011T220238Z
+UID:523931ebafa2899b36aa1e0b06050dd6ea5c8aebcb0f87aa26884a66048b85ec@emc-c
+ alendar
+DESCRIPTION:Source: https://everyonetheatres.com/whats-on/sinatra-big-band
+ -bash/
+URL:https://everyonetheatres.com/whats-on/sinatra-big-band-bash/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Dom Joly – Trigger Happy TV\, the 25th Anniversary Tour
+DTSTART:20261104T193000
+DTEND:20261104T213000
+DTSTAMP:20261011T220238Z
+UID:897955146db62d7096de2d1e1d552d7422d4e2fb79f1a904f29631a28f1f0070@emc-c
+ alendar
+DESCRIPTION:Source: https://everyonetheatres.com/whats-on/dom-joly-trigger
+ -happy-tv-the-25th-anniversary-tour/
+URL:https://everyonetheatres.com/whats-on/dom-joly-trigger-happy-tv-the-25
+ th-anniversary-tour/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Wille & The Bandits
+DTSTART:20261105T193000
+DTEND:20261105T213000
+DTSTAMP:20261011T220238Z
+UID:243dd48ff9395c800001cd991cc697a4e505b58fbc59add03e757d4f52f42840@emc-c
+ alendar
+DESCRIPTION:Source: https://everyonetheatres.com/whats-on/wille-the-bandit
+ s/
+URL:https://everyonetheatres.com/whats-on/wille-the-bandits/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Mark Simmons – Jest To Impress
+DTSTART:20261107T193000
+DTEND:20261107T213000
+DTSTAMP:20261011T220238Z
+UID:0ba178ae117d1799a88cf3a7af45f360bfaca38bfc532bd3b555fbc4504966be@emc-c
+ alendar
+DESCRIPTION:Source: https://everyonetheatres.com/whats-on/mark-simmons-jes
+ t-to-impress/
+URL:https://everyonetheatres.com/whats-on/mark-simmons-jest-to-impress/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:There’s A Monster In Your Show
+DTSTART:20261110T193000
+DTEND:20261110T213000
+DTSTAMP:20261011T220238Z
+UID:f12653e4dd30484361189c9114f348caf9e993976c69ff9a3b364a42d8206e3c@emc-c
+ alendar
+DESCRIPTION:Source: https://everyonetheatres.com/whats-on/theres-a-monster
+ -in-your-show/
+URL:https://everyonetheatres.com/whats-on/theres-a-monster-in-your-show/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Chuckl with Reginald D Hunter & Special Guests
+DTSTART:20261113T193000
+DTEND:20261113T213000
+DTSTAMP:20261011T220238Z
+UID:ce160ac7870e442b5366995b39d0f0c26abf96bbf4915c8a826d8c289b01ac24@emc-c
+ alendar
+DESCRIPTION:Source: https://everyonetheatres.com/whats-on/chuckl-with-regi
+ nald-d-hunter-special-guests/
+URL:https://everyonetheatres.com/whats-on/chuckl-with-reginald-d-hunter-sp
+ ecial-guests/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:The Arts Society Harpenden Evening
+DTSTART:20261118T193000
+DTEND:20261118T213000
+DTSTAMP:20261011T220238Z
+UID:0a265f6439bfccb4445f043e775e8afaec073fee4167e1ecdc1c0ca685ee5adf@emc-c
+ alendar
+DESCRIPTION:Source: https://everyonetheatres.com/whats-on/the-arts-society
+ -harpenden-evening-3/
+URL:https://everyonetheatres.com/whats-on/the-arts-society-harpenden-eveni
+ ng-3/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:The Arts Society Harpenden Area
+DTSTART:20261119T193000
+DTEND:20261119T213000
+DTSTAMP:20261011T220238Z
+UID:7d0b2aa7f0575dd479ab42a80ee39c78a637cd884992defc8f1d55a0cc135c80@emc-c
+ alendar
+DESCRIPTION:Source: https://everyonetheatres.com/whats-on/the-arts-society
+ -harpenden-area-3/
+URL:https://everyonetheatres.com/whats-on/the-arts-society-harpenden-area-
+ 3/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Hugh Cornwell: Never Say Goodbye Acoustic Tour
+DTSTART:20261120T193000
+DTEND:20261120T213000
+DTSTAMP:20261011T220238Z
+UID:b23559a016a9b76837b1cb5780c7890417f9cc91d2ca5d740dfea53b98efe8e8@emc-c
+ alendar
+DESCRIPTION:Source: https://everyonetheatres.com/whats-on/hugh-cornwell-ne
+ ver-say-goodbye-acoustic-tour/
+URL:https://everyonetheatres.com/whats-on/hugh-cornwell-never-say-goodbye-
+ acoustic-tour/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Jack J Hutchinson Acoustic
+DTSTART:20261120T193000
+DTEND:20261120T213000
+DTSTAMP:20261011T220238Z
+UID:cf793e82e2621f4d491e6c6579eefe504bba73e7128a74b27e9e3c872b4d6080@emc-c
+ alendar
+DESCRIPTION:Source: https://everyonetheatres.com/whats-on/jack-j-hutchinso
+ n-acoustic/
+URL:https://everyonetheatres.com/whats-on/jack-j-hutchinson-acoustic/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Man in the Mirror
+DTSTART:20261122T193000
+DTEND:20261122T213000
+DTSTAMP:20261011T220238Z
+UID:508a483e5a9ab410a2cce863216645b2413a8940ad8f356b98fe2fbbaa93a967@emc-c
+ alendar
+DESCRIPTION:Source: https://everyonetheatres.com/whats-on/man-in-the-mirro
+ r/
+URL:https://everyonetheatres.com/whats-on/man-in-the-mirror/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Sir Geoff Hurst: Last Man Standing
+DTSTART:20261123T193000
+DTEND:20261123T213000
+DTSTAMP:20261011T220238Z
+UID:e741ca31ca4a061c5c123635b2914bf6235778d9ab0b911644f9a748d87e0a8a@emc-c
+ alendar
+DESCRIPTION:Source: https://everyonetheatres.com/whats-on/sir-geoff-hurst-
+ last-man-standing/
+URL:https://everyonetheatres.com/whats-on/sir-geoff-hurst-last-man-standin
+ g/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Rapunzel – A Tangled Tale
+DTSTART:20261205T193000
+DTEND:20261205T213000
+DTSTAMP:20261011T220238Z
+UID:b2d07600c810657d3e42212c98028eede070c314c810afd002f02c37d462b3cc@emc-c
+ alendar
+DESCRIPTION:Source: https://everyonetheatres.com/whats-on/rapunzel-a-tangl
+ ed-tale-2026/
+URL:https://everyonetheatres.com/whats-on/rapunzel-a-tangled-tale-2026/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Harpenden Gang Show 2027
+DTSTART:20270112T193000
+DTEND:20270112T213000
+DTSTAMP:20261011T220238Z
+UID:a890471e8cf7d4e47c6a9557a2383eb6a79b9debf0d9ea9cb235aa2d82fb3800@emc-c
+ alendar
+DESCRIPTION:Source: https://everyonetheatres.com/whats-on/harpenden-gang-s
+ how-2027/
+URL:https://everyonetheatres.com/whats-on/harpenden-gang-show-2027/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Russell Watson: An Intimate Evening With ‘The Voice’
+DTSTART:20270126T193000
+DTEND:20270126T213000
+DTSTAMP:20261011T220238Z
+UID:788ccbefff2c454e48f805400fa786a17c053f8e39443e022aad7e65751281a1@emc-c
+ alendar
+DESCRIPTION:Source: https://everyonetheatres.com/whats-on/russell-watson-a
+ n-intimate-evening-with-the-voice-2/
+URL:https://everyonetheatres.com/whats-on/russell-watson-an-intimate-eveni
+ ng-with-the-voice-2/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:The Arts Society Harpenden Area
+DTSTART:20270128T193000
+DTEND:20270128T213000
+DTSTAMP:20261011T220238Z
+UID:8b8ff803c57a459b3065d4f2377de9a6af97fc021700959469b4d9e6bd953989@emc-c
+ alendar
+DESCRIPTION:Source: https://everyonetheatres.com/whats-on/the-arts-society
+ -harpenden-area-4/
+URL:https://everyonetheatres.com/whats-on/the-arts-society-harpenden-area-
+ 4/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Buddy Holly & The Cricketers
+DTSTART:20270130T193000
+DTEND:20270130T213000
+DTSTAMP:20261011T220238Z
+UID:0300b25936025933e5e07fbf04faacf7a63d4a4633d1b9fb103a63248ff8d729@emc-c
+ alendar
+DESCRIPTION:Source: https://everyonetheatres.com/whats-on/buddy-holly-the-
+ cricketers/
+URL:https://everyonetheatres.com/whats-on/buddy-holly-the-cricketers/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:This Flight Tonight: The Songs of Joni Mitchell
+DTSTART:20270205T193000
+DTEND:20270205T213000
+DTSTAMP:20261011T220238Z
+UID:8313448771474f4b469ba8592e6cc9626c10af0371cca913dff3805df28fad45@emc-c
+ alendar
+DESCRIPTION:Source: https://everyonetheatres.com/whats-on/this-flight-toni
+ ght-the-songs-of-joni-mitchell/
+URL:https://everyonetheatres.com/whats-on/this-flight-tonight-the-songs-of
+ -joni-mitchell/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Ronnie\, Reggie and Me: With Fred Dinenage
+DTSTART:20270212T193000
+DTEND:20270212T213000
+DTSTAMP:20261011T220238Z
+UID:273a87e687e772b51d2c7a89b4f4def3a6810229fa17428264017b949595a308@emc-c
+ alendar
+DESCRIPTION:Source: https://everyonetheatres.com/whats-on/ronnie-reggie-an
+ d-me-with-fred-dinenage/
+URL:https://everyonetheatres.com/whats-on/ronnie-reggie-and-me-with-fred-d
+ inenage/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:The Arts Society Harpenden Area
+DTSTART:20270218T193000
+DTEND:20270218T213000
+DTSTAMP:20261011T220238Z
+UID:113098da1fdb47c0a98476d4339eebdb08a5428d8ba17b70618ae34d4675f3f5@emc-c
+ alendar
+DESCRIPTION:Source: https://everyonetheatres.com/whats-on/the-arts-society
+ -harpenden-area-5/
+URL:https://everyonetheatres.com/whats-on/the-arts-society-harpenden-area-
+ 5/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Let’s Rock The 70’s
+DTSTART:20270219T193000
+DTEND:20270219T213000
+DTSTAMP:20261011T220238Z
+UID:c66dcbe31ac4f071a0e4c4f00553fcf21e8d0c6783e7bbee9ddae6534a361d3f@emc-c
+ alendar
+DESCRIPTION:Source: https://everyonetheatres.com/whats-on/lets-rock-the-70
+ s/
+URL:https://everyonetheatres.com/whats-on/lets-rock-the-70s/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Shania and Friends
+DTSTART:20270220T193000
+DTEND:20270220T213000
+DTSTAMP:20261011T220238Z
+UID:1ae8d75ff97676329bb79eeb4b942cd709b017695437a24f8b56862611867368@emc-c
+ alendar
+DESCRIPTION:Source: https://everyonetheatres.com/whats-on/shania-and-frien
+ ds/
+URL:https://everyonetheatres.com/whats-on/shania-and-friends/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:The Katie Price Show – On Tour
+DTSTART:20270225T193000
+DTEND:20270225T213000
+DTSTAMP:20261011T220238Z
+UID:bff2456b2dfa2c61bd4380b21e8f202013938da46440d159d776be9446c8cd79@emc-c
+ alendar
+DESCRIPTION:Source: https://everyonetheatres.com/whats-on/the-katie-price-
+ show/
+URL:https://everyonetheatres.com/whats-on/the-katie-price-show/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Stuart Michael – The Psychic Medium
+DTSTART:20270226T193000
+DTEND:20270226T213000
+DTSTAMP:20261011T220238Z
+UID:2c6da4e78d9c06e75944d1379f186928ca216bce3851d1b14da7068001efa5de@emc-c
+ alendar
+DESCRIPTION:Source: https://everyonetheatres.com/whats-on/stuart-michael-t
+ he-psychic-medium/
+URL:https://everyonetheatres.com/whats-on/stuart-michael-the-psychic-mediu
+ m/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:The Makings of a Murderer -Fatal Mistake
+DTSTART:20270227T193000
+DTEND:20270227T213000
+DTSTAMP:20261011T220238Z
+UID:b983760b2368b236e3f889216899353d03701dd8423c0e959538bda668642356@emc-c
+ alendar
+DESCRIPTION:Source: https://everyonetheatres.com/whats-on/the-makings-of-a
+ -murderer-fatal-mistake/
+URL:https://everyonetheatres.com/whats-on/the-makings-of-a-murderer-fatal-
+ mistake/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:David Olusoga – A Global History of the British Cup of Tea
+DTSTART:20270304T193000
+DTEND:20270304T213000
+DTSTAMP:20261011T220238Z
+UID:fcb75b046e3c0ca7bb9e0c4f4528e222128cd282a8f4468ebcf0245b19bfd953@emc-c
+ alendar
+DESCRIPTION:Source: https://everyonetheatres.com/whats-on/david-olusoga-a-
+ global-history-of-the-british-cup-of-tea/
+URL:https://everyonetheatres.com/whats-on/david-olusoga-a-global-history-o
+ f-the-british-cup-of-tea/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:The Arts Society Harpenden Area
+DTSTART:20270304T193000
+DTEND:20270304T213000
+DTSTAMP:20261011T220238Z
+UID:a0d2505fcb16358bb7d9274fe0e7a21a2b8e255d58ce672880c8f4e2eba69372@emc-c
+ alendar
+DESCRIPTION:Source: https://everyonetheatres.com/whats-on/the-arts-society
+ -harpenden-area-6/
+URL:https://everyonetheatres.com/whats-on/the-arts-society-harpenden-area-
+ 6/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:From Gold to Rio
+DTSTART:20270305T193000
+DTEND:20270305T213000
+DTSTAMP:20261011T220238Z
+UID:11bc50e96c7ccc8907662bfa7cad9635f3de207c5a501a6e29458ee35676f427@emc-c
+ alendar
+DESCRIPTION:Source: https://everyonetheatres.com/whats-on/from-gold-to-rio
+ /
+URL:https://everyonetheatres.com/whats-on/from-gold-to-rio/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:A Foreigner’s Journey
+DTSTART:20270306T193000
+DTEND:20270306T213000
+DTSTAMP:20261011T220238Z
+UID:94caed46b777bb59254a6761591adf4a76a392971679ccd1065ddb60e0cfbd02@emc-c
+ alendar
+DESCRIPTION:Source: https://everyonetheatres.com/whats-on/a-foreigners-jou
+ rney/
+URL:https://everyonetheatres.com/whats-on/a-foreigners-journey/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Fairport Convention – 60th Anniversary Tour
+DTSTART:20270310T193000
+DTEND:20270310T213000
+DTSTAMP:20261011T220238Z
+UID:f6d6529633aaddede19da110f99f46336dcade0897f2bf64176f7fb2be990447@emc-c
+ alendar
+DESCRIPTION:Source: https://everyonetheatres.com/whats-on/fairport-convent
+ ion-60th-anniversary-tour/
+URL:https://everyonetheatres.com/whats-on/fairport-convention-60th-anniver
+ sary-tour/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Sound & Vision: A Tribute to David Bowie
+DTSTART:20270312T193000
+DTEND:20270312T213000
+DTSTAMP:20261011T220238Z
+UID:11129aa33fa231edc345bb97110abd9f870328bdadafed3812433cd0e65796bc@emc-c
+ alendar
+DESCRIPTION:Source: https://everyonetheatres.com/whats-on/sound-vision-a-t
+ ribute-to-david-bowie/
+URL:https://everyonetheatres.com/whats-on/sound-vision-a-tribute-to-david-
+ bowie/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Big Fish
+DTSTART:20270317T193000
+DTEND:20270317T213000
+DTSTAMP:20261011T220238Z
+UID:473225ae49cccab28a900a8c1f679ce1d0e895474c0c97b526d8f0099914399d@emc-c
+ alendar
+DESCRIPTION:Source: https://everyonetheatres.com/whats-on/big-fish/
+URL:https://everyonetheatres.com/whats-on/big-fish/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:One Night in Dublin
+DTSTART:20270325T193000
+DTEND:20270325T213000
+DTSTAMP:20261011T220238Z
+UID:5449826ca2febebe18cfbfbcd2aeb5088dbda22bc983a9fcd405ae46b39a2a12@emc-c
+ alendar
+DESCRIPTION:Source: https://everyonetheatres.com/whats-on/one-night-in-dub
+ lin/
+URL:https://everyonetheatres.com/whats-on/one-night-in-dublin/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Simon Fowler – The Ocean Colour Scene Songbook and beyond
+DTSTART:20270401T193000
+DTEND:20270401T213000
+DTSTAMP:20261011T220238Z
+UID:76214974db71280f9e5dc63c5b041ff8ce3c941dacef241c09705b8b47b49104@emc-c
+ alendar
+DESCRIPTION:Source: https://everyonetheatres.com/whats-on/simon-fowler-the
+ -ocean-colour-scene-songbook-and-beyond/
+URL:https://everyonetheatres.com/whats-on/simon-fowler-the-ocean-colour-sc
+ ene-songbook-and-beyond/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:The West End Tenors
+DTSTART:20270402T193000
+DTEND:20270402T213000
+DTSTAMP:20261011T220238Z
+UID:ade02265af72cfc1b7190ffa36d3682c1ff59e57623c360165304afc602d7cc5@emc-c
+ alendar
+DESCRIPTION:Source: https://everyonetheatres.com/whats-on/the-west-end-ten
+ ors-2027/
+URL:https://everyonetheatres.com/whats-on/the-west-end-tenors-2027/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:John Lydon – I Could Be Wrong\, I Could Be Right
+DTSTART:20270403T193000
+DTEND:20270403T213000
+DTSTAMP:20261011T220238Z
+UID:3a61e6e5cf5317046a79cbc188f50e0213ae4003dc67683835d1fd069a7ac393@emc-c
+ alendar
+DESCRIPTION:Source: https://everyonetheatres.com/whats-on/john-lydon-i-cou
+ ld-be-wrong-i-could-be-right/
+URL:https://everyonetheatres.com/whats-on/john-lydon-i-could-be-wrong-i-co
+ uld-be-right/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:The Chicago Blues Brothers – Live at the Country Bunker
+DTSTART:20270410T193000
+DTEND:20270410T213000
+DTSTAMP:20261011T220238Z
+UID:3006146bab7f3e62440ac5c28b0274e4d7a42feab804263527e8e062cd6d7590@emc-c
+ alendar
+DESCRIPTION:Source: https://everyonetheatres.com/whats-on/the-chicago-blue
+ -brothers-life-at-the-country-bunker/
+URL:https://everyonetheatres.com/whats-on/the-chicago-blue-brothers-life-a
+ t-the-country-bunker/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Operation MI6
+DTSTART:20270416T193000
+DTEND:20270416T213000
+DTSTAMP:20261011T220238Z
+UID:5d6f7160f17118459227dc130a36cb7f348d73a50cc0a5fcb0e843f681472487@emc-c
+ alendar
+DESCRIPTION:Source: https://everyonetheatres.com/whats-on/operation-mi6/
+URL:https://everyonetheatres.com/whats-on/operation-mi6/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Paul Young – Songs and Stories
+DTSTART:20270418T193000
+DTEND:20270418T213000
+DTSTAMP:20261011T220238Z
+UID:88a21fe208ae33aba4f0c1f6800dbee7aa50ce26c8168ce27b2705283080dd6f@emc-c
+ alendar
+DESCRIPTION:Source: https://everyonetheatres.com/whats-on/paul-young-songs
+ -and-stories/
+URL:https://everyonetheatres.com/whats-on/paul-young-songs-and-stories/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Diana Remembered – An Evening with Ken Wharfe
+DTSTART:20270422T193000
+DTEND:20270422T213000
+DTSTAMP:20261011T220238Z
+UID:96be7c72845211ee1bf0dc8ce6b6dccee694d5f2058604dd0b9a11444499f09c@emc-c
+ alendar
+DESCRIPTION:Source: https://everyonetheatres.com/whats-on/an-evening-with-
+ ken-wharfe/
+URL:https://everyonetheatres.com/whats-on/an-evening-with-ken-wharfe/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Nik Kershaw: Musings and Lyrics
+DTSTART:20270423T193000
+DTEND:20270423T213000
+DTSTAMP:20261011T220238Z
+UID:c1f9956118f66b235be8f550f1e34e1bf25863d98ba4df1e1fa0e7cd9a2a9f2e@emc-c
+ alendar
+DESCRIPTION:Source: https://everyonetheatres.com/whats-on/nik-kershaw-musi
+ ngs-and-lyrics/
+URL:https://everyonetheatres.com/whats-on/nik-kershaw-musings-and-lyrics/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Del Amitri – 45 Years of Modest Failure
+DTSTART:20270425T193000
+DTEND:20270425T213000
+DTSTAMP:20261011T220238Z
+UID:a3725839cc1ca0b608b37306cd313e041cd2e41fb15ed8ad6f535d0d845250b9@emc-c
+ alendar
+DESCRIPTION:Source: https://everyonetheatres.com/whats-on/del-amitri-45-ye
+ ars-of-modest-failure/
+URL:https://everyonetheatres.com/whats-on/del-amitri-45-years-of-modest-fa
+ ilure/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Billy & Tim: The Young Offenders
+DTSTART:20270501T193000
+DTEND:20270501T213000
+DTSTAMP:20261011T220238Z
+UID:79b94c26261b14ba4382424952e09c75e1432fb52c2fef3538640051c20b4675@emc-c
+ alendar
+DESCRIPTION:Source: https://everyonetheatres.com/whats-on/billy-tim-the-yo
+ ung-offenders/
+URL:https://everyonetheatres.com/whats-on/billy-tim-the-young-offenders/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Cocktails with Joyce Grenfell
+DTSTART:20270506T193000
+DTEND:20270506T213000
+DTSTAMP:20261011T220238Z
+UID:56b0cc631888c16e34e459692e49fc3d9e858cfe0aba4cda4bab1fa95591e710@emc-c
+ alendar
+DESCRIPTION:Source: https://everyonetheatres.com/whats-on/cocktails-with-j
+ oyce-grenfell/
+URL:https://everyonetheatres.com/whats-on/cocktails-with-joyce-grenfell/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Eurovision Your Decision
+DTSTART:20270512T193000
+DTEND:20270512T213000
+DTSTAMP:20261011T220238Z
+UID:3f0d016e01de4d69e38b11e661bba0eb4bfbffa6a36418788c914c95c207cbab@emc-c
+ alendar
+DESCRIPTION:Source: https://everyonetheatres.com/whats-on/eurovision-your-
+ decision/
+URL:https://everyonetheatres.com/whats-on/eurovision-your-decision/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:The Carpenters Songbook – Starring Toni Lee
+DTSTART:20270522T193000
+DTEND:20270522T213000
+DTSTAMP:20261011T220238Z
+UID:aaad42f197bb16b34b61f4274d52108df2df6a1d885bdb4355d64ea8c0a2df55@emc-c
+ alendar
+DESCRIPTION:Source: https://everyonetheatres.com/whats-on/the-carpenters-s
+ ongbook-starring-toni-lee/
+URL:https://everyonetheatres.com/whats-on/the-carpenters-songbook-starring
+ -toni-lee/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Amazing Animals
+DTSTART:20270605T193000
+DTEND:20270605T213000
+DTSTAMP:20261011T220238Z
+UID:c2d7d638ebb92e371123efd419d0aae5588325460188d23ee5af9b2adb9c6450@emc-c
+ alendar
+DESCRIPTION:Source: https://everyonetheatres.com/whats-on/amazing-animals/
+URL:https://everyonetheatres.com/whats-on/amazing-animals/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Tommy Blaize – The Golden Age of Swing
+DTSTART:20270613T193000
+DTEND:20270613T213000
+DTSTAMP:20261011T220238Z
+UID:96a42c39a7b26219565b56edc235d6a00c3f909ceaccb26e618adfd7a8286348@emc-c
+ alendar
+DESCRIPTION:Source: https://everyonetheatres.com/whats-on/tommy-blaize-the
+ -golden-age-of-swing/
+URL:https://everyonetheatres.com/whats-on/tommy-blaize-the-golden-age-of-s
+ wing/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Sun Records – The Concert
+DTSTART:20270618T193000
+DTEND:20270618T213000
+DTSTAMP:20261011T220238Z
+UID:90b11387ad797472e2facef5faef44325436071aac29c2365412e6702381a905@emc-c
+ alendar
+DESCRIPTION:Source: https://everyonetheatres.com/whats-on/sun-records-the-
+ concert/
+URL:https://everyonetheatres.com/whats-on/sun-records-the-concert/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Thunderbirds Are Go
+DTSTART:20270619T193000
+DTEND:20270619T213000
+DTSTAMP:20261011T220238Z
+UID:3a59e08f6982231539e6d1497503ad828f11498e57384b1aabb1f0bda7feca1b@emc-c
+ alendar
+DESCRIPTION:Source: https://everyonetheatres.com/whats-on/thunderbirds-are
+ -go/
+URL:https://everyonetheatres.com/whats-on/thunderbirds-are-go/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Dancing Queen The Show
+DTSTART:20270625T193000
+DTEND:20270625T213000
+DTSTAMP:20261011T220238Z
+UID:5229050c56a1ff33b73469804e6b7b1f58b26ce9ca3fef9aebf0d6e6b1926440@emc-c
+ alendar
+DESCRIPTION:Source: https://everyonetheatres.com/whats-on/thank-abba-for-t
+ he-music-26/
+URL:https://everyonetheatres.com/whats-on/thank-abba-for-the-music-26/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Forever Clapton “Unplugged” by Candlelight
+DTSTART:20270627T193000
+DTEND:20270627T213000
+DTSTAMP:20261011T220238Z
+UID:8b9ae76f1a61b2803cca07611e7163a5627d1159520334add1fd6c76f01088ca@emc-c
+ alendar
+DESCRIPTION:Source: https://everyonetheatres.com/whats-on/forever-clapton-
+ unplugged-by-candlelight/
+URL:https://everyonetheatres.com/whats-on/forever-clapton-unplugged-by-can
+ dlelight/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:The Drifters
+DTSTART:20270702T193000
+DTEND:20270702T213000
+DTSTAMP:20261011T220238Z
+UID:e9aa1670aaf1241ade6ae49d079ef69ef178eb6bba0ab67d2d33775f06ec30c9@emc-c
+ alendar
+DESCRIPTION:Source: https://everyonetheatres.com/whats-on/the-drifters-2/
+URL:https://everyonetheatres.com/whats-on/the-drifters-2/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:It’s Not Where You Start
+DTSTART:20270717T193000
+DTEND:20270717T213000
+DTSTAMP:20261011T220238Z
+UID:94b8a7383a4b1d3bd0f0335a545ec9d52f9988c57688bebe24ef0ef0897826e2@emc-c
+ alendar
+DESCRIPTION:Source: https://everyonetheatres.com/whats-on/its-not-where-yo
+ u-start/
+URL:https://everyonetheatres.com/whats-on/its-not-where-you-start/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Heaven Can Wait – The Meat Loaf Concert Experience
+DTSTART:20270917T193000
+DTEND:20270917T213000
+DTSTAMP:20261011T220238Z
+UID:4ffa5681323ab0a5aed3ad568a9aa03aed98f850030105bb61b082805b76ef59@emc-c
+ alendar
+DESCRIPTION:Source: https://everyonetheatres.com/whats-on/heaven-can-wait-
+ the-meat-loaf-concert-experience/
+URL:https://everyonetheatres.com/whats-on/heaven-can-wait-the-meat-loaf-co
+ ncert-experience/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Ministry of Science
+DTSTART:20270918T193000
+DTEND:20270918T213000
+DTSTAMP:20261011T220238Z
+UID:5fb541bcdcec09cd8a74e524ab655a4f331dab343b532edf8f28953a2e9013ca@emc-c
+ alendar
+DESCRIPTION:Source: https://everyonetheatres.com/whats-on/ministry-of-scie
+ nce-2/
+URL:https://everyonetheatres.com/whats-on/ministry-of-science-2/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Phil Daniels – Quadrophenia to Park Life
+DTSTART:20271023T193000
+DTEND:20271023T213000
+DTSTAMP:20261011T220238Z
+UID:aad46c31eeac631a50509bccfe98430b37aea342edffbe735cc6004133432333@emc-c
+ alendar
+DESCRIPTION:Source: https://everyonetheatres.com/whats-on/phil-daniels-qua
+ drophenia-to-park-life/
+URL:https://everyonetheatres.com/whats-on/phil-daniels-quadrophenia-to-par
+ k-life/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Clint Boon – This Is How It Feels
+DTSTART:20271028T193000
+DTEND:20271028T213000
+DTSTAMP:20261011T220238Z
+UID:500242754483c53902591afac1ba02b819018afa1041d0543ec67e3c4588e9fb@emc-c
+ alendar
+DESCRIPTION:Source: https://everyonetheatres.com/whats-on/clint-boon-this-
+ is-how-it-feels/
+URL:https://everyonetheatres.com/whats-on/clint-boon-this-is-how-it-feels/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:An Evening of Stories and Songs with Kenny Thomas
+DTSTART:20271124T193000
+DTEND:20271124T213000
+DTSTAMP:20261011T220238Z
+UID:ac5429cecf111a46684417a33bbcdc0bf7c82626ce99bcac7cd0c10bc6fb598d@emc-c
+ alendar
+DESCRIPTION:Source: https://everyonetheatres.com/whats-on/an-evening-of-st
+ ories-and-songs-with-kenny-thomas/
+URL:https://everyonetheatres.com/whats-on/an-evening-of-stories-and-songs-
+ with-kenny-thomas/
+END:VEVENT
 END:VCALENDAR
