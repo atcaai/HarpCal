@@ -1,0 +1,58 @@
+name: Update EMC calendar
+
+on:
+  schedule:
+    - cron: "0 18 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - run: pip install -r requirements.txt
+      - run: python scraper_emc.py
+
+      #Create a diff summary
+      - name: Generate diff summary
+        run: python diff_summary_emc.py
+        
+            #Commit the calendar to the repo
+      - name: Commit and push updated feed
+        run: |
+          git config user.name "emc-calendar-bot"
+          git config user.email "emc-calendar-bot@users.noreply.github.com"
+          git add events_emc.ics
+          if ! git diff --cached --quiet; then
+            git commit -m "Update EMC calendar"
+            git push
+          else
+            echo "No changes to commit."
+          fi
+          
+      # Create an isolated publish folder with only events.ics
+      - name: Stage output file
+        run: |
+          mkdir -p public_emc
+          cp events_emc.ics public_emc/
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v4
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: 'public_emc'
+
+      - name: Deploy to GitHub Pages
+        uses: actions/deploy-pages@v4
