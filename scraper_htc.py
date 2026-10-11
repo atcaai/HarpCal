@@ -93,9 +93,8 @@ def build_ics(events):
             continue
         seen.add(uid)
 
-        start = datetime.fromisoformat(
-            f'{e["date"].isoformat()}T{e["time"]}:00'
-        )
+        # Convert date/time to datetime object for ical
+        start = datetime.combine(e["date"], datetime.strptime(e["time"], "%H:%M").time())
         ev = Event()
         ev.add("uid", uid)
         ev.add("dtstamp", datetime.utcnow())
@@ -108,23 +107,60 @@ def build_ics(events):
 
     return cal.to_ical()
 
+def load_existing_events(filepath):
+    """Load and parse events from an existing .ics file if it exists."""
+    try:
+        with open(filepath, "rb") as f:
+            cal = Calendar.from_ical(f.read())
+            events = []
+            for component in cal.walk("VEVENT"):
+                start_dt = component.get("dtstart").dt
+                # Handle both datetime and date objects
+                if isinstance(start_dt, datetime):
+                    event_date = start_dt.date()
+                else:
+                    event_date = start_dt
+                
+                events.append({
+                    "date": event_date,
+                    "time": start_dt.strftime("%H:%M") if isinstance(start_dt, datetime) else "00:00",
+                    "title": str(component.get("summary")),
+                    "url": str(component.get("url")),
+                })
+            return events
+    except FileNotFoundError:
+        return []
+
 def main():
     session = requests.Session()
     session.headers.update(HEADERS)
     all_events = []
 
+    # 1. Scrape new events from the website
     for url in month_urls():
         print("Fetching", url)
         r = session.get(url, timeout=30)
         r.raise_for_status()
         all_events.extend(parse_month(r.text, url))
 
-    all_events.sort(key=lambda x: (x["date"], x["time"], x["title"].lower()))
+    # 2. Load existing events to merge
+    existing_events = load_existing_events(OUTPUT)
+    today = date.today()
+    
+    # 3. Preserve past events from existing record (to avoid losing historical data)
+    final_events = [e for e in existing_events if e["date"] < today]
+    
+    # 4. Add new/future events (this will overwrite future events with the latest scrape)
+    final_events.extend([e for e in all_events if e["date"] >= today])
+    
+    # 5. Deduplicate and sort for consistency
+    final_events.sort(key=lambda x: (x["date"], x["time"], x["title"].lower()))
 
+    # 6. Write the final ICS file
     with open(OUTPUT, "wb") as f:
-        f.write(build_ics(all_events))
+        f.write(build_ics(final_events))
 
-    print(f"Wrote {len(all_events)} events to {OUTPUT}")
+    print(f"Wrote {len(final_events)} total events to {OUTPUT}")
 
 if __name__ == "__main__":
     main()
