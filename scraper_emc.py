@@ -42,6 +42,8 @@ def get_events_from_page(page_num):
             continue
             
         title = title_a.get("title")
+        if title and title.startswith("Find out more about "):
+            title = title[len("Find out more about "):]
         event_url = title_a.get("href")
         
         # Time - sometimes hidden in title or location or just not there
@@ -62,10 +64,10 @@ def event_uid(e):
 
 def build_ics(events):
     cal = Calendar()
-    cal.add("prodid", "-//Everyone Theatres Events Feed//")
+    cal.add("prodid", "-//Eric Morecambe Centre Events//")
     cal.add("version", "2.0")
     cal.add("calscale", "GREGORIAN")
-    cal.add("x-wr-calname", "Everyone Theatres - EMC")
+    cal.add("x-wr-calname", "Eric Morecambe Centre Events")
     cal.add("x-wr-timezone", "Europe/London")
 
     seen = set()
