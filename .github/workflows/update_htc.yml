@@ -39,14 +39,18 @@ jobs:
           MAIL_RECIPIENT: "your.destination.email@example.com"
         run: python send_email.py
         
-      #Commit the calendar to the repo
+            #Commit the calendar to the repo
       - name: Commit and push updated feed
         run: |
           git config user.name "harpenden-calendar-bot"
           git config user.email "harpenden-calendar-bot@users.noreply.github.com"
           git add events_htc.ics
-          git diff --cached --quiet || git commit -m "Update calendar"
-          git push
+          if ! git diff --cached --quiet; then
+            git commit -m "Update calendar"
+            git push
+          else
+            echo "No changes to commit."
+          fi
           
       # Create an isolated publish folder with only events.ics
       - name: Stage output file
