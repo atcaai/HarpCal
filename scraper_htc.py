@@ -14,7 +14,7 @@ OUTPUT = "events_htc.ics"
 MONTHS_AHEAD = 14
 EXCLUDE = ("citizens advice", "planning committee")
 
-HEADERS = {"User-Agent": "HarpendenCalendarFeed/1.0"}
+HEADERS = {"User-Agent": ""}
 
 def month_urls():
     today = date.today()
@@ -83,7 +83,7 @@ def build_ics(events):
     cal.add("prodid", "-//Harpenden Town Council Events Feed//")
     cal.add("version", "2.0")
     cal.add("calscale", "GREGORIAN")
-    cal.add("x-wr-calname", "Harpenden Town Council Events")
+    cal.add("x-wr-calname", "Harps - Town Council Events")
     cal.add("x-wr-timezone", "Europe/London")
 
     seen = set()
