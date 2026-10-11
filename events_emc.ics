@@ -1,0 +1,417 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Everyone Theatres Events Feed//
+CALSCALE:GREGORIAN
+X-WR-CALNAME:Everyone Theatres - EMC
+X-WR-TIMEZONE:Europe/London
+BEGIN:VEVENT
+SUMMARY:Find out more about Nigel Havers: Talking B*ll*cks
+DTSTART:20261011T193000
+DTEND:20261011T213000
+DTSTAMP:20261011T123909Z
+UID:7706ebf2520a1702298a4e21611079f7f93798f6551e61bec7a35c969561742f@emc-c
+ alendar
+DESCRIPTION:Source: https://everyonetheatres.com/whats-on/nigel-havers-tal
+ king-bllcks/
+URL:https://everyonetheatres.com/whats-on/nigel-havers-talking-bllcks/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Find out more about Saving All My Love For You
+DTSTART:20261011T193000
+DTEND:20261011T213000
+DTSTAMP:20261011T123909Z
+UID:e5defc259fe5eb07c17be490542774cb07a533a475549bd3037f018403beb3e4@emc-c
+ alendar
+DESCRIPTION:Source: https://everyonetheatres.com/whats-on/saving-all-my-lo
+ ve-for-you-3/
+URL:https://everyonetheatres.com/whats-on/saving-all-my-love-for-you-3/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Find out more about Simon Brodkin: Unleashed
+DTSTART:20261011T193000
+DTEND:20261011T213000
+DTSTAMP:20261011T123909Z
+UID:5ffb7d19caf25a4a7920301b914a31ad5c60f0a65ba5ecab42111c527074642d@emc-c
+ alendar
+DESCRIPTION:Source: https://everyonetheatres.com/whats-on/simon-brodkin-un
+ leashed/
+URL:https://everyonetheatres.com/whats-on/simon-brodkin-unleashed/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Find out more about Jeremy Bowen: Truth Under Fire
+DTSTART:20261013T193000
+DTEND:20261013T213000
+DTSTAMP:20261011T123909Z
+UID:516b29874fab10a3706fa59c40983adff1daace20bd31402ecc73b6f077b6051@emc-c
+ alendar
+DESCRIPTION:Source: https://everyonetheatres.com/whats-on/jeremy-bowen-tru
+ th-under-fire/
+URL:https://everyonetheatres.com/whats-on/jeremy-bowen-truth-under-fire/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Find out more about Dr Richard Shepherd: Time of Death – More Un
+ natural Causes.
+DTSTART:20261014T193000
+DTEND:20261014T213000
+DTSTAMP:20261011T123909Z
+UID:a102db61d5ab327ca7d94076ebf05e442a2df034e7431cac6a9e1de399f67ac8@emc-c
+ alendar
+DESCRIPTION:Source: https://everyonetheatres.com/whats-on/dr-richard-sheph
+ erd-time-of-death-more-unnatural-causes/
+URL:https://everyonetheatres.com/whats-on/dr-richard-shepherd-time-of-deat
+ h-more-unnatural-causes/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Find out more about DMTC: Chitty Chitty Bang Bang
+DTSTART:20261015T193000
+DTEND:20261015T213000
+DTSTAMP:20261011T123909Z
+UID:f7f31daf52edb84b2cb8943d162ce8eb8545f998e3aeedadd8929e222d9d2310@emc-c
+ alendar
+DESCRIPTION:Source: https://everyonetheatres.com/whats-on/dmtc-chitty-chit
+ ty-bang-bang/
+URL:https://everyonetheatres.com/whats-on/dmtc-chitty-chitty-bang-bang/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Find out more about Rare Productions: Joseph and the Amazing Techn
+ icolor Dreamcoat
+DTSTART:20261015T193000
+DTEND:20261015T213000
+DTSTAMP:20261011T123909Z
+UID:2a573c21305e6281632f0b1ed5f2cc9e72c44070283e468db14efa6c738df425@emc-c
+ alendar
+DESCRIPTION:Source: https://everyonetheatres.com/whats-on/rare-productions
+ -joseph-and-the-amazing-technicolor-dreamcoat-2/
+URL:https://everyonetheatres.com/whats-on/rare-productions-joseph-and-the-
+ amazing-technicolor-dreamcoat-2/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Find out more about The Arts Society Harpenden Area
+DTSTART:20261015T193000
+DTEND:20261015T213000
+DTSTAMP:20261011T123909Z
+UID:fab936e5d7ebd5943f36a956e8070c9841e67d858a8c54c92c509a038b15af0a@emc-c
+ alendar
+DESCRIPTION:Source: https://everyonetheatres.com/whats-on/the-arts-society
+ -harpenden-area-2/
+URL:https://everyonetheatres.com/whats-on/the-arts-society-harpenden-area-
+ 2/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Find out more about Country Roads
+DTSTART:20261016T193000
+DTEND:20261016T213000
+DTSTAMP:20261011T123909Z
+UID:9a3f98cfe8b25647b23d2af7d542aeb8f495c97c1b0e41df43699b6cf8992eed@emc-c
+ alendar
+DESCRIPTION:Source: https://everyonetheatres.com/whats-on/country-roads/
+URL:https://everyonetheatres.com/whats-on/country-roads/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Find out more about Oasiz
+DTSTART:20261016T193000
+DTEND:20261016T213000
+DTSTAMP:20261011T123909Z
+UID:50cfc61c2abed67983878220943d52e35d1e07bc8ae2e6d95f8cd609f472433e@emc-c
+ alendar
+DESCRIPTION:Source: https://everyonetheatres.com/whats-on/oasiz/
+URL:https://everyonetheatres.com/whats-on/oasiz/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Find out more about Day-time Disco For Grown Ups 70s 80s 90s Party
+DTSTART:20261017T193000
+DTEND:20261017T213000
+DTSTAMP:20261011T123909Z
+UID:48af0bf370dc0e081cfadc4e7db4a154ef78ddad22b7c77a39be5f234643a6de@emc-c
+ alendar
+DESCRIPTION:Source: https://everyonetheatres.com/whats-on/day-time-disco-f
+ or-grown-ups-70s-80s-90s-party/
+URL:https://everyonetheatres.com/whats-on/day-time-disco-for-grown-ups-70s
+ -80s-90s-party/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Find out more about Kerry Ellis – Rock Anthems
+DTSTART:20261017T193000
+DTEND:20261017T213000
+DTSTAMP:20261011T123909Z
+UID:5b9120c8258ab3246b3a80aedd4cbe1c87f0967a798ccb65bb99ce2569d817fa@emc-c
+ alendar
+DESCRIPTION:Source: https://everyonetheatres.com/whats-on/kerry-ellis-rock
+ -anthems/
+URL:https://everyonetheatres.com/whats-on/kerry-ellis-rock-anthems/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Find out more about KPOP Fantasy
+DTSTART:20261017T193000
+DTEND:20261017T213000
+DTSTAMP:20261011T123909Z
+UID:48d02bc10a6b8b9391f84bf96c4b0dafc208292124bd3c5fab5dfae9b7270518@emc-c
+ alendar
+DESCRIPTION:Source: https://everyonetheatres.com/whats-on/kpop-fantasy/
+URL:https://everyonetheatres.com/whats-on/kpop-fantasy/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Find out more about Choose George: Celebrating George Michael
+DTSTART:20261018T193000
+DTEND:20261018T213000
+DTSTAMP:20261011T123909Z
+UID:ac080cb3dc96c77eb880d1b68eb94f25af426df41d8642a5dd45fdc12696885b@emc-c
+ alendar
+DESCRIPTION:Source: https://everyonetheatres.com/whats-on/choose-george-ce
+ lebrating-george-michael-2/
+URL:https://everyonetheatres.com/whats-on/choose-george-celebrating-george
+ -michael-2/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Find out more about Luther Live & The Velvet Voices
+DTSTART:20261018T193000
+DTEND:20261018T213000
+DTSTAMP:20261011T123909Z
+UID:9fb1ed6e0f38203b3e3cf1ba07f4e7780a53745eca910217d47ec2b08a909ad9@emc-c
+ alendar
+DESCRIPTION:Source: https://everyonetheatres.com/whats-on/luther-live-the-
+ velvet-voices/
+URL:https://everyonetheatres.com/whats-on/luther-live-the-velvet-voices/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Find out more about T.Rextasy
+DTSTART:20261018T193000
+DTEND:20261018T213000
+DTSTAMP:20261011T123909Z
+UID:62d0a3d415390d751ee76812e355d95e3f0979351dab9fe4869bc8798223ec53@emc-c
+ alendar
+DESCRIPTION:Source: https://everyonetheatres.com/whats-on/t-rextasy-3/
+URL:https://everyonetheatres.com/whats-on/t-rextasy-3/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Find out more about An Evening with Tottenham Legends
+DTSTART:20261020T193000
+DTEND:20261020T213000
+DTSTAMP:20261011T123909Z
+UID:2843f987b2a7a893cfd02e049ec6e5bd5daa6c6629cc6337af5e2d9595f3faa0@emc-c
+ alendar
+DESCRIPTION:Source: https://everyonetheatres.com/whats-on/an-evening-with-
+ tottenham-legends/
+URL:https://everyonetheatres.com/whats-on/an-evening-with-tottenham-legend
+ s/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Find out more about The Opera Boys starring Paul Potts
+DTSTART:20261020T193000
+DTEND:20261020T213000
+DTSTAMP:20261011T123909Z
+UID:cb79be2dd759e24c26081478103e319661cd239d983e3231b4a7694d742d7aea@emc-c
+ alendar
+DESCRIPTION:Source: https://everyonetheatres.com/whats-on/the-opera-boys-s
+ tarring-paul-potts-2/
+URL:https://everyonetheatres.com/whats-on/the-opera-boys-starring-paul-pot
+ ts-2/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Find out more about Meet & Greet Add On: The Opera Boys – Starri
+ ng Paul Potts
+DTSTART:20261021T193000
+DTEND:20261021T213000
+DTSTAMP:20261011T123909Z
+UID:9436d845c73a30e4bdc5551f403b9d896fb682d9d12aaa0b2377fde55730a239@emc-c
+ alendar
+DESCRIPTION:Source: https://everyonetheatres.com/whats-on/meet-greet-add-o
+ n-the-opera-boys-starring-paul-potts/
+URL:https://everyonetheatres.com/whats-on/meet-greet-add-on-the-opera-boys
+ -starring-paul-potts/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Find out more about The Arts Society Harpenden Evening
+DTSTART:20261021T193000
+DTEND:20261021T213000
+DTSTAMP:20261011T123909Z
+UID:1cc82fb6f763dcb93ac9d708d634da2a447f01c1c08e3314a2cb56df2ebe0554@emc-c
+ alendar
+DESCRIPTION:Source: https://everyonetheatres.com/whats-on/the-arts-society
+ -harpenden-evening-2/
+URL:https://everyonetheatres.com/whats-on/the-arts-society-harpenden-eveni
+ ng-2/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Find out more about The Illegal Eagles
+DTSTART:20261021T193000
+DTEND:20261021T213000
+DTSTAMP:20261011T123909Z
+UID:e6fa4522936f29e4cd2f0f73a1b1e1ca55396705574a3dffac658dc10e2e4707@emc-c
+ alendar
+DESCRIPTION:Source: https://everyonetheatres.com/whats-on/illegal-eagles/
+URL:https://everyonetheatres.com/whats-on/illegal-eagles/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Find out more about The Opera Boys – Starring Paul Potts
+DTSTART:20261021T193000
+DTEND:20261021T213000
+DTSTAMP:20261011T123909Z
+UID:f967e0b4528be27bb9e3b548b680563e2be1a12ddbeab76c3bae0a09b105a8b3@emc-c
+ alendar
+DESCRIPTION:Source: https://everyonetheatres.com/whats-on/the-opera-boys-s
+ tarring-paul-potts/
+URL:https://everyonetheatres.com/whats-on/the-opera-boys-starring-paul-pot
+ ts/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Find out more about Take That Vs Robbie
+DTSTART:20261022T193000
+DTEND:20261022T213000
+DTSTAMP:20261011T123909Z
+UID:5388cbab9675256e851d85f36e43012868e46938ddaa8f9f4f9fb9a313f3f4d3@emc-c
+ alendar
+DESCRIPTION:Source: https://everyonetheatres.com/whats-on/re-take-that-2/
+URL:https://everyonetheatres.com/whats-on/re-take-that-2/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Find out more about The Makings of a Murderer: The Undercover Dete
+ ctive
+DTSTART:20261022T193000
+DTEND:20261022T213000
+DTSTAMP:20261011T123909Z
+UID:6549a1ef52dfb2bdd8d4069c4b998c9cc51e0e4b1f4767dbef25749ea5985485@emc-c
+ alendar
+DESCRIPTION:Source: https://everyonetheatres.com/whats-on/the-makings-of-a
+ -murderer-the-undercover-detective-2/
+URL:https://everyonetheatres.com/whats-on/the-makings-of-a-murderer-the-un
+ dercover-detective-2/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Find out more about Halloween In Concert
+DTSTART:20261023T193000
+DTEND:20261023T213000
+DTSTAMP:20261011T123909Z
+UID:06758481eda622cdc61c4ba30c71db52475705b5de613bb347c595fe2cf4d20c@emc-c
+ alendar
+DESCRIPTION:Source: https://everyonetheatres.com/whats-on/halloween-in-con
+ cert-2/
+URL:https://everyonetheatres.com/whats-on/halloween-in-concert-2/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Find out more about Henning Wehn: Acid Wehn
+DTSTART:20261023T193000
+DTEND:20261023T213000
+DTSTAMP:20261011T123909Z
+UID:2be519105878321124991ee5ec31622a966cd78ecec56f2543edb70d941c7bb5@emc-c
+ alendar
+DESCRIPTION:Source: https://everyonetheatres.com/whats-on/henning-wehn-aci
+ d-wehn/
+URL:https://everyonetheatres.com/whats-on/henning-wehn-acid-wehn/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Find out more about Rave On
+DTSTART:20261023T193000
+DTEND:20261023T213000
+DTSTAMP:20261011T123909Z
+UID:337bccda272bb417f41a8bbc93ea7daaa9e3b9a52dddda76ea3ad4984195061d@emc-c
+ alendar
+DESCRIPTION:Source: https://everyonetheatres.com/whats-on/rave-on/
+URL:https://everyonetheatres.com/whats-on/rave-on/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Find out more about The Dazzling Diamonds
+DTSTART:20261023T193000
+DTEND:20261023T213000
+DTSTAMP:20261011T123909Z
+UID:46184dee8d7e0fb64251b013ece50b2b42d7f83b0f10e850fcc3ac779f700285@emc-c
+ alendar
+DESCRIPTION:Source: https://everyonetheatres.com/whats-on/the-dazzling-dia
+ monds/
+URL:https://everyonetheatres.com/whats-on/the-dazzling-diamonds/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Find out more about The Rocket Man – A Tribute to Elton John
+DTSTART:20261023T193000
+DTEND:20261023T213000
+DTSTAMP:20261011T123909Z
+UID:437393d86f1e5817fd7453522f780bde92c18787c6c9a4cbbc6b559bbab53141@emc-c
+ alendar
+DESCRIPTION:Source: https://everyonetheatres.com/whats-on/the-rocket-man-a
+ -tribute-to-elton-john/
+URL:https://everyonetheatres.com/whats-on/the-rocket-man-a-tribute-to-elto
+ n-john/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Find out more about Luther Live & Velvet Voices
+DTSTART:20261024T193000
+DTEND:20261024T213000
+DTSTAMP:20261011T123909Z
+UID:ab74c8073719395c30b66144a7e3a5902aa31758f7b5d9609a997bba6448572b@emc-c
+ alendar
+DESCRIPTION:Source: https://everyonetheatres.com/whats-on/luther-live-velv
+ et-voices-2/
+URL:https://everyonetheatres.com/whats-on/luther-live-velvet-voices-2/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Find out more about New Dawn Fades – A Play About JOY DIVISION a
+ nd MANCHESTER
+DTSTART:20261024T193000
+DTEND:20261024T213000
+DTSTAMP:20261011T123909Z
+UID:28cf16028b2aa65161d02829ba3249f1c57f9f8d4086a2253427d97344addb44@emc-c
+ alendar
+DESCRIPTION:Source: https://everyonetheatres.com/whats-on/new-dawn-fades-a
+ -play-about-joy-division-and-manchester/
+URL:https://everyonetheatres.com/whats-on/new-dawn-fades-a-play-about-joy-
+ division-and-manchester/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Find out more about The Dazzling Diamonds Comedy Drag Show
+DTSTART:20261024T193000
+DTEND:20261024T213000
+DTSTAMP:20261011T123909Z
+UID:8be211e0b07291eb33e7553e03a9205d3b1af08afe5fc0caf8684ad68d09b9c7@emc-c
+ alendar
+DESCRIPTION:Source: https://everyonetheatres.com/whats-on/dazzling-diamond
+ s/
+URL:https://everyonetheatres.com/whats-on/dazzling-diamonds/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Find out more about Go West – We Close Our Eyes\, And Other Stor
+ ies
+DTSTART:20261025T193000
+DTEND:20261025T213000
+DTSTAMP:20261011T123909Z
+UID:f9768d5b2934429636b9752fab51f94d634433cc9d7ad5634434ee383e90f018@emc-c
+ alendar
+DESCRIPTION:Source: https://everyonetheatres.com/whats-on/go-west-we-close
+ -our-eyes-and-other-stories/
+URL:https://everyonetheatres.com/whats-on/go-west-we-close-our-eyes-and-ot
+ her-stories/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Find out more about In The Air Tonight
+DTSTART:20261025T193000
+DTEND:20261025T213000
+DTSTAMP:20261011T123909Z
+UID:c82b63b2a52a49241c5fc312cdde6c8ca6f112ecbfeaea9f7e378d88798080b8@emc-c
+ alendar
+DESCRIPTION:Source: https://everyonetheatres.com/whats-on/in-the-air-tonig
+ ht/
+URL:https://everyonetheatres.com/whats-on/in-the-air-tonight/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Find out more about Susan Calman: Tall Tales
+DTSTART:20261025T193000
+DTEND:20261025T213000
+DTSTAMP:20261011T123909Z
+UID:dcf1e8b06a48afe2f36298a53ce484319c98ba0c1f0c8155139e475d7bcfb160@emc-c
+ alendar
+DESCRIPTION:Source: https://everyonetheatres.com/whats-on/susan-calman-tal
+ l-tales/
+URL:https://everyonetheatres.com/whats-on/susan-calman-tall-tales/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Find out more about The Dinosaur That Pooped – A Rock Show
+DTSTART:20261026T193000
+DTEND:20261026T213000
+DTSTAMP:20261011T123909Z
+UID:c86ba1f5883dca3e4667a4443a6bcfda2e3def80befc1fb991b5753e837976f3@emc-c
+ alendar
+DESCRIPTION:Source: https://everyonetheatres.com/whats-on/the-dinosaur-tha
+ t-pooped-a-rock-show-2/
+URL:https://everyonetheatres.com/whats-on/the-dinosaur-that-pooped-a-rock-
+ show-2/
+END:VEVENT
+END:VCALENDAR
