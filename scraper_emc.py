@@ -12,7 +12,7 @@ OUTPUT = "events_emc.ics"
 PAGES_TO_SCRAPE = 1
 HEADERS = {"User-Agent": ""}
 
-def get_events_from_page():
+def get_events_from_page(page_num):
     url = f"{BASE}/"
     print(f"Fetching {url}")
     try:
@@ -67,7 +67,7 @@ def build_ics(events):
     cal.add("prodid", "-//Eric Morecambe Centre Events//")
     cal.add("version", "2.0")
     cal.add("calscale", "GREGORIAN")
-    cal.add("x-wr-calname", "Eric Morecambe Centre Events")
+    cal.add("x-wr-calname", "Harps - Eric Morecambe Centre Events")
     cal.add("x-wr-timezone", "Europe/London")
 
     seen = set()
