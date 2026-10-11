@@ -9,7 +9,6 @@ from icalendar import Calendar, Event
 
 BASE = "https://everyonetheatres.com/whats-on/page/"
 OUTPUT = "events_emc.ics"
-
 PAGES_TO_SCRAPE = 10
 HEADERS = {"User-Agent": "EveryoneTheatresScraper/1.0"}
 
