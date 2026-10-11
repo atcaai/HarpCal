@@ -10,10 +10,10 @@ from icalendar import Calendar, Event
 BASE = "https://everyonetheatres.com/whats-on/?search=&theatre%5B%5D=the-eric-morecambe-centre&d=&ppp=-1"
 OUTPUT = "events_emc.ics"
 PAGES_TO_SCRAPE = 1
-HEADERS = {"User-Agent": ""}
+HEADERS = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36"}
 
 def get_events_from_page(page_num):
-    url = f"{BASE}/"
+    url = f"{BASE}"
     print(f"Fetching {url}")
     try:
         r = requests.get(url, headers=HEADERS, timeout=30)
