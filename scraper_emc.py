@@ -10,7 +10,7 @@ from icalendar import Calendar, Event
 BASE = "https://everyonetheatres.com/whats-on/page/"
 OUTPUT = "events_emc.ics"
 PAGES_TO_SCRAPE = 10
-HEADERS = {"User-Agent": "EveryoneTheatresScraper/1.0"}
+HEADERS = {"User-Agent": ""}
 
 def get_events_from_page(page_num):
     url = f"{BASE}{page_num}/"
