@@ -7,13 +7,13 @@ import requests
 from bs4 import BeautifulSoup
 from icalendar import Calendar, Event
 
-BASE = "https://everyonetheatres.com/whats-on/page/"
+BASE = "https://everyonetheatres.com/whats-on/?search=&theatre%5B%5D=the-eric-morecambe-centre&d=&ppp=-1"
 OUTPUT = "events_emc.ics"
-PAGES_TO_SCRAPE = 10
+PAGES_TO_SCRAPE = 1
 HEADERS = {"User-Agent": ""}
 
-def get_events_from_page(page_num):
-    url = f"{BASE}{page_num}/"
+def get_events_from_page():
+    url = f"{BASE}/"
     print(f"Fetching {url}")
     try:
         r = requests.get(url, headers=HEADERS, timeout=30)
